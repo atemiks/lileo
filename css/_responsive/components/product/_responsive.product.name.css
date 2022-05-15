@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+	.product-name {
+		margin: -5px 0 5px;
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.product-name {
+		font-size: 24px;
+		letter-spacing: 0;
+	}
+}

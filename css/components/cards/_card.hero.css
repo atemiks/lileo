@@ -1,0 +1,45 @@
+.hero-card {
+	display: flex;
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+}
+
+.hero-card .row {
+	min-height: 150px;
+}
+
+.hero-card .row:after {
+	content: '';
+	min-height: inherit;
+	font-size: 0;
+}
+
+
+.hero-card .hero-content-col {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.hero-card .hero-title {
+	margin: 0 0 5px;
+	padding: 0;
+	font-family: 'Jikharev';
+	font-size: 25px;
+	color: #c10000;
+	line-height: 1;
+}
+
+.hero-card .hero-text {
+	display: none;
+	margin: 0 20px 5px 0;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.45;
+}
+
+
+.hero-card .hero-media {
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+.section-banners {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+.banners-grid .banner-item {
+	margin-bottom: 15px;
+}
+
+.banners-grid .banner-item:nth-child(n+3) {
+	display: none;
+}

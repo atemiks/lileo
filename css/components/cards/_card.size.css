@@ -1,0 +1,96 @@
+.size-card {
+	position: relative;
+}
+
+.size-card input[type="radio"] {
+	display: none;
+}
+
+.size-card input[type="radio"] + label,
+.size-link {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	min-width: 36px;
+	margin: 0;
+	padding: 12px 5px 11px;
+	border-left: 5px solid #f7e5f6;
+	border-right: 5px solid #f7e5f6;
+	background-color: #fff;
+	transition: border-color 300ms ease;
+	font-size: 13px;
+	font-weight: 400;
+	color: #000;
+	line-height: 1;
+	text-align: center;
+}
+
+.size-card input[type="radio"] + label:before,
+.size-card input[type="radio"] + label:after  {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	opacity: 1;
+	visibility: visible;
+	height: 5px;
+	width: calc(100% + 10px);
+	border: none;
+	border-radius: 0;
+	background-color: #f7e5f6;
+	transition: background-color 300ms ease;
+}
+
+.size-card input[type="radio"] + label:before {
+	top: 0px;
+	left: -5px;
+	right: -5px;
+	bottom: auto;
+}
+
+.size-card input[type="radio"] + label:after {
+	top: auto;
+	left: -5px;
+	right: -5px;
+	bottom: 0px;
+}
+
+.size-card input[type="radio"]:checked + label {
+	border-color: transparent;
+}
+
+.size-card input[type="radio"]:checked + label:before,
+.size-card input[type="radio"]:checked + label:after {
+	background-color: #822cbd;
+}
+
+
+.size-card input[type="radio"]:disabled + label {
+	border-color: #f0f2f4;
+	background-color: #f0f2f4;
+	color: #949ca1;
+}
+
+.size-card input[type="radio"]:disabled + label:before,
+.size-card input[type="radio"]:disabled + label:after {
+	background-color: #f0f2f4;
+}
+
+
+.size-card .tooltip {
+	display: none;
+}
+
+
+.size-link {
+	padding: 7px 5px 6px;
+	border: 5px solid #f7e5f6;
+	transition: border-color: 300ms ease;
+	text-decoration: none;
+	line-height: 1;
+}
+
+.size-link:hover {
+	border-color: #822cbd;
+	color: #000;
+}

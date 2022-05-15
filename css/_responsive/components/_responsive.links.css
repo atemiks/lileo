@@ -1,0 +1,12 @@
+@media (min-width: 1400px) {
+	.links-list {
+		margin-left: -10px;
+		margin-right: -10px;
+		font-size: 14px;
+	}
+
+	.links-list .link-item {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

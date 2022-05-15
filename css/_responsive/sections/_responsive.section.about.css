@@ -1,0 +1,19 @@
+@media (min-width: 480px) {
+	.section-about {
+		padding-top: 40px;
+		padding-bottom: 55px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section-about {
+		padding-top: 35px;
+		padding-bottom: 45px;
+		font-size: 15px;
+		line-height: 1.666;
+	}
+
+	.section-about .section-header {
+		margin-bottom: 0;
+	}
+}

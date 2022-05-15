@@ -1,0 +1,260 @@
+.product-card {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	padding-bottom: 42px;
+	background-color: #fff;
+}
+
+.product-card:before {
+	content: '';
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+	top: -15px;
+    left: -70px;
+    right: -15px;
+    bottom: -15px;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.product-card .main-info {
+	position: absolute;
+	top: calc(100% - 42px);
+	width: 100%;
+	z-index: 2;
+}
+
+.product-card .main-info:before,
+.product-card .main-info:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: 52px;
+	left: -70px;
+	right: -15px;
+	background-color: #fff;
+}
+
+.product-card .main-info:before {
+	opacity: 0;
+	bottom: -15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.product-card .main-info:after {
+	height: 20px;
+	transform: translateY(-100%);
+}
+
+
+.product-card .btn-close {
+	position: absolute;
+	z-index: 9;
+	right: 5px;
+	bottom: 5px;
+}
+
+
+.product-card .product-title {
+    margin: 7px 0;
+    font-size: 15px;
+    line-height: 1.47;
+    color: #000000;
+}
+
+.product-card .product-title a {
+	color: inherit;
+	text-decoration: none;
+	line-height: inherit;
+}
+
+
+
+.product-card .colors-block .title,
+.product-card .sizes-block .title {
+	margin: 0 0 3px;
+	font-size: 13px;
+}
+
+.product-card .colors-block {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: -56px;
+}
+
+
+.product-card .sizes-block {
+	display: none;
+	margin: 0 0 8px;
+}
+
+
+.product-card .price-old,
+.product-card .price-current {
+    display: block;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+}
+
+
+.product-card .rating-block {
+	display: none;
+	margin-top: 10px;
+}
+
+
+.product-card .product-actions {
+	cursor: default;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.product-card .product-action-item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.product-card .product-action-item:first-child {
+	display: none;
+}
+
+.product-card .product-action {
+	display: block;
+	height: 39px;
+	width: 38px;
+	font-size: 20px;
+	line-height: 39px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.product-card .product-labels {
+	position: absolute;
+	z-index: 9;
+	top: 0;
+	right: 0;
+}
+
+
+.product-card .product-media-wrapper {
+	position: relative;
+}
+
+.product-card .product-media {
+	position: relative;
+	display: block;
+	padding-bottom: 133.5%;
+	text-decoration: none;
+}
+
+.product-card .product-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+
+.product-card .swiper-product-media {
+	position: relative;
+	margin: 0;
+}
+
+
+.product-card .swiper-product-media .swiper-slide .swiper-lazy-preloader {
+	opacity: 0;
+}
+
+.product-card .swiper-product-media .swiper-slide.swiper-slide-active .swiper-lazy-preloader {
+	opacity: 1;
+}
+
+
+.product-card .swiper-product-media .swiper-pagination {
+	opacity: 0;
+	visibility: hidden;
+	width: calc(100% + 6px) !important;
+	bottom: 0;
+}
+
+
+.product-card .swiper-product-colors {
+	height: 230px;
+	margin: 20px 0;
+}
+
+.product-card .swiper-product-colors .swiper-slide {
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+}
+
+.product-card .swiper-product-colors .swiper-slide:first-child {
+	border-color: #822cbd;
+}
+
+.product-card .swiper-product-colors .swiper-button-prev, 
+.product-card .swiper-product-colors .swiper-button-next {
+	height: 20px;
+}
+
+.product-card .swiper-product-colors .swiper-button-prev:before, 
+.product-card .swiper-product-colors .swiper-button-next:before {
+	opacity: 0;
+}
+
+.product-card .swiper-product-colors .swiper-button-prev:after, 
+.product-card .swiper-product-colors .swiper-button-next:after {
+	color: #c5cbcf;
+}
+
+
+.product-card .swiper-product-colors .swiper-button-prev {
+	top: -20px;
+	bottom: auto;
+}
+
+.product-card .swiper-product-colors .swiper-button-prev:after {
+	content: '\f113';
+}
+
+
+.product-card .swiper-product-colors .swiper-button-next {
+	top: auto;
+	bottom: -20px;
+}
+
+.product-card .swiper-product-colors .swiper-button-next:after {
+	content: '\f110';
+}
+
+
+.product-card .btn-preview {
+	opacity: 0;
+	visibility: visible;
+	cursor: pointer;
+	position: absolute;
+	z-index: 9;
+	top: 50%;
+	left: 50%;
+	padding: 10px 10px;
+	background-color: rgba(130, 44, 189, .7);
+	transform: translate(-50%, -50%);
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+	white-space: nowrap;
+}

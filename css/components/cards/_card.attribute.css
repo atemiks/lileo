@@ -1,0 +1,21 @@
+.attribute-card {
+	font-size: 14px;
+}
+
+.attribute-label,
+.attribute-value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.attribute-label {
+	display: inline-block;
+	margin-right: 5px;
+	font-weight: 400;
+	color: #404040;
+}
+
+.attribute-value {
+	font-weight: 600;
+	color: #000000;
+}

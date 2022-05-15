@@ -1,0 +1,6 @@
+@media (min-width: 1200px) {
+	.color-card .color-thumbnail {
+		width: 75px;
+		height: 100px;
+	}
+}

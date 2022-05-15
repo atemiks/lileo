@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+	.code-block .code {
+		padding: 8px 10px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.code-block,
+	.code-block .code {
+		font-size: 15px;
+	}
+}

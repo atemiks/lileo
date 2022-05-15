@@ -1,0 +1,50 @@
+.section-catalog {
+	padding-top: 0;
+	padding-bottom: 40px;
+}
+
+.section-catalog.fluid .catalog-content {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+
+.catalog-about {
+	font-weight: 400;
+	color: #2c2c2c;
+	font-size: 14px;
+	line-height: 1.42;
+}
+
+.catalog-about .section-header {
+	margin-bottom: 15px;
+}
+
+.catalog-about.top {
+	margin-bottom: 30px;
+}
+
+
+.catalog-grid  {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -15px;
+}
+
+.catalog-grid .catalog-item {
+	overflow: hidden;
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#catalog-mobile-controls {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #d9dcde;
+	border-bottom: 1px solid #d9dcde;
+}

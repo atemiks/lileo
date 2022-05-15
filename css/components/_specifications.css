@@ -1,0 +1,33 @@
+.specifications-block {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.specifications-block .title {
+	margin: 0 0 8px;
+	font-family: 'Jikharev';
+	font-size: 23px;
+	line-height: 1.25;
+}
+
+.specifications-block .headline {
+	font-size: 17px;
+	font-weight: 700;
+	color: #822cbd;
+}
+
+.specifications-group-secondary {
+	display: none;
+}
+
+.specifications-list {
+	margin: -12px 0 0;
+	padding: 0;
+	list-style: none;
+	font-size: 15px;
+	color: #2c2c2c;
+}
+
+.specification-item {
+	margin: 13px -10px;
+}

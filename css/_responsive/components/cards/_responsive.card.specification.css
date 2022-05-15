@@ -1,0 +1,11 @@
+@media (min-width: 480px) {
+	.specification-card {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.specification-card {
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,29 @@
+@media (min-width: 991px) {
+	.specifications-block .title {
+		margin: 0 0 8px;
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.specifications-block {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.specifications-block .title {
+		margin: 0 0 5px;
+		font-size: 28px;
+	}
+
+
+	.specification-item {
+		margin: 17px -10px;
+	}
+
+
+	.product-specification-label,
+	.product-specification-value  {
+		font-size: 15px;
+	}
+}

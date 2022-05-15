@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+	.collection-card .collection-thumbnail {
+		overflow: hidden;
+		height: 160px;
+		padding-bottom: 0;
+	}
+
+	.collection-card .collection-img {
+		position: static;
+		width: auto;
+		height: inherit;
+	}
+}
+
+@media (min-width: 992px) {
+	.collection-card .collection-title {
+		margin: 8px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.collection-card .collection-title  {
+		font-size: 15px;
+	}
+}

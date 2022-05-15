@@ -1,0 +1,40 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+	.swiper-similar {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.swiper-similar .swiper-slide {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.swiper-similar .swiper-button-prev, 
+	.swiper-similar .swiper-button-next {
+		padding-top: calc(29% - 20px);
+	}
+}
+
+@media (min-width: 1200px) {
+	.swiper-similar {
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	.swiper-similar .swiper-button-prev, 
+	.swiper-similar .swiper-button-next {
+	    padding-top: calc(33.25% - 74px);
+	}
+}
+
+@media (min-width: 1400px) {
+	.swiper-similar {
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+
+	.swiper-similar .swiper-button-prev, 
+	.swiper-similar .swiper-button-next {
+	    padding-top: calc(26.6% - 24px);
+	}
+}

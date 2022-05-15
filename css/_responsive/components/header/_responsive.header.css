@@ -1,0 +1,31 @@
+@media (min-width: 992px) {
+	.header-main {
+		height: 82px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.header-main [class*="col-"] {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	
+
+	.header-fixed.header-box {
+		padding-top: 82px;
+	}
+
+	.header-fixed .header-main {
+		height: 65px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header-main {
+		height: 78px;
+	}
+
+	.header-fixed.header-box {
+		padding-top: 78px;
+	}
+}

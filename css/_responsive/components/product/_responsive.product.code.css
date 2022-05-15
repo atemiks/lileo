@@ -1,0 +1,17 @@
+@media (min-width: 480px) {
+	.product .code-block {
+		margin: 0 10px 0 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.product .code-block {
+		margin: 0 0 8px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.product .code-block {
+		margin: 0 0 5px;
+	}
+}

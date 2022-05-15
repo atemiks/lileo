@@ -1,0 +1,23 @@
+.colors-block .title {
+	margin: 6px 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.colors-list {
+	line-height: 1;
+}
+
+.colors-list .color-item {
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+}
+
+.colors-list .color-item.active {
+	border-color: #822cbd;
+}
+
+.colors-list.vertical .color-item {
+	display: block;
+}

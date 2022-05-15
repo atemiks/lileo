@@ -1,0 +1,27 @@
+.tag {
+	display: inline-block;
+	border: 5px solid #f7e5f6;
+	padding: 6px 10px;
+	font-size: 13px;
+	line-height: 1;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.tag:hover {
+	border-color: #822cbd;
+	text-decoration: none;
+}
+
+
+.tags-list {
+	cursor: default;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tag-item {
+	display: inline-block;
+	margin-bottom: 5px;
+}

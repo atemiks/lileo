@@ -1,0 +1,78 @@
+.filter-toggler {
+	cursor: pointer;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	font-size: 14px;
+	color: #1b59c1;
+}
+
+.filter-toggler i {
+	margin-right: 5px;
+	font-size: 140%;
+}
+
+
+.filter-wrapper {
+	position: absolute;
+	display: none;
+	z-index: 99;
+	top: 100%;
+	left: -15px;
+	right: -15px;
+	padding: 15px 15px 0;
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.filter-wrapper .filter-close {
+	cursor: pointer;
+	position: relative;
+	right: -8px;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	font-size: 24px;
+	color: #b6b6b6;
+}
+
+.filter-header {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.filter-headline {
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 14px;
+	color: #1b59c1;
+}
+
+.filter-headline i {
+	margin-right: 5px;
+	font-size: 140%;
+}
+
+
+.filter-content {
+	margin-top: -5px;
+	padding-bottom: 14px;
+}

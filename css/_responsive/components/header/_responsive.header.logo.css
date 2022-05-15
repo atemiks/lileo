@@ -1,0 +1,7 @@
+@media (min-width: 992px) {
+	.header-logo .logo-img {
+		position: relative;
+		top: -5px;
+		width: 118px;
+	}
+}

@@ -1,0 +1,9 @@
+.product-name {
+	margin: -5px 0 5px;
+	font-family: 'Jikharev';
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000;
+	line-height: 1.25;
+	letter-spacing: -0.5px;
+}

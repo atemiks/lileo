@@ -1,0 +1,80 @@
+@media (min-width: 480px) {
+	.swiper-products .swiper-button-prev,
+	.swiper-products .swiper-button-next {
+		padding-top: calc(44.333% - 30px);
+	}
+}
+
+@media (min-width: 768px) {
+	.swiper-products {
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 5px;
+	}
+
+	.swiper-products .swiper-button-prev,
+	.swiper-products .swiper-button-next {
+		padding-top: calc(33.25% - 53px);
+	}
+
+	.swiper-products .swiper-button-prev {
+		left: 0;
+	}
+
+	.swiper-products .swiper-button-next {
+		right: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.swiper-products {
+		margin-left: 9px;
+		margin-right: 9px;
+		margin-bottom: 25px;
+	}
+
+	.swiper-products .swiper-slide {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+
+	.swiper-products .swiper-button-prev,
+	.swiper-products .swiper-button-next {
+		padding-top: calc(22.16% - 20px);
+	}
+}
+
+@media (min-width: 1200px) {
+	.swiper-products {
+		margin-left: -3px;
+		margin-right: -3px;
+	}
+
+	.swiper-products .swiper-slide {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	.swiper-products .swiper-button-prev, 
+	.swiper-products .swiper-button-next {
+	    padding-top: calc(22.16% - 52px);
+	}
+}
+
+@media (min-width: 1400px) {
+	.swiper-products {
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+
+	.swiper-products .swiper-slide {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.swiper-products .swiper-button-prev, 
+	.swiper-products .swiper-button-next {
+		    padding-top: calc(16.625% - 22px);
+	}
+}

@@ -1,0 +1,35 @@
+.advantage-card {
+	display: flex;
+	align-items: center;
+	max-width: 235px;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.25;
+	color: #454545;
+}
+
+.advantage-card a {
+	font-size: inherit;
+	color: inherit;
+	text-decoration: underline;
+	line-height: inherit;
+}
+
+.advantage-card a:hover {
+	text-decoration: none;
+}
+
+.advantage-card .advantage-media {
+	flex: 0 0 auto;
+	max-width: none;
+	margin-right: 10px;
+}
+
+.advantage-card .advantage-media i {
+	font-size: 35px;
+}
+
+.advantage-card .advantage-text {
+	flex: 1 1 auto;
+	max-width: 100%;
+}

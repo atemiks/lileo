@@ -1,0 +1,35 @@
+.rating-block {
+	display: flex;
+	align-items: center;
+}
+
+.rating-list {
+	cursor: default;
+	margin: 0 15px 0 0;
+	padding: 0;
+	list-style: none;
+	font-size: 22px;
+	color: #e65ae6;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+.rating-list .rating-item {
+	display: inline-block;
+	margin-right: -3px;
+}
+
+
+.rating-count {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.07;
+}
+
+.rating-count span {
+	display: none;
+}
+
+.icon-star.disabled {
+	color: #c5cbcf;
+}

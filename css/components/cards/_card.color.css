@@ -1,0 +1,30 @@
+.color-card {
+	display: block;
+	text-decoration: none;
+}
+
+.color-card:hover {
+	text-decoration: none;
+}
+
+.color-card .color-thumbnail {
+	position: relative;
+	width: 68px;
+	height: 90px;
+}
+
+.color-card .color-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+.color-card.sm .color-thumbnail {
+	height: 67px;
+	width: 50px;
+}

@@ -1,0 +1,21 @@
+.field-rating {
+	cursor: default;
+}
+
+.field-rating input {
+	display: none;
+}
+
+.field-rating input + label {
+    cursor: pointer;
+	display: inline-block;
+    width: 22px;
+    font-size: 22px;
+    color: #e65ae6;
+    text-align: center;
+    line-height: 22px;
+}
+
+.field-rating input:checked + label ~ label {
+	color: #c5cbcf;
+}

@@ -1,0 +1,61 @@
+.form-actions-list {
+	cursor: default;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.form-actions-list .form-action-item {
+	display: inline-block;
+}
+
+.action-checkbox input[type="checkbox"] + label {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	margin: 0;
+	padding: 12px 6px 11px;
+	border-left: 5px solid #f7e5f6;
+	border-right: 5px solid #f7e5f6;
+	background-color: #fff;
+	transition: border-color 300ms ease;
+	font-size: 13px;
+	font-weight: 400;
+	color: #000;
+}
+
+.action-checkbox input[type="checkbox"] + label:before,
+.action-checkbox input[type="checkbox"] + label:after  {
+	z-index: 1;
+	opacity: 1;
+	visibility: visible;
+	height: 5px;
+	width: calc(100% + 10px);
+	border: none;
+	border-radius: 0;
+	background-color: #f7e5f6;
+	transition: background-color 300ms ease;
+}
+
+.action-checkbox input[type="checkbox"] + label:before {
+	top: 0px;
+	left: -5px;
+	right: -5px;
+	bottom: auto;
+}
+
+.action-checkbox input[type="checkbox"] + label:after {
+	top: auto;
+	left: -5px;
+	right: -5px;
+	bottom: 0px;
+}
+
+.action-checkbox input[type="checkbox"]:checked + label {
+	border-color: transparent;
+}
+
+.action-checkbox input[type="checkbox"]:checked + label:before,
+.action-checkbox input[type="checkbox"]:checked + label:after {
+	background-color: #822cbd;
+}

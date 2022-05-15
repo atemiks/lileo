@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+	.header-actions {
+		margin: 0 100px 0 0;
+	}
+
+	.header-actions .action {
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+}
+
+@media (min-width: 992px) {
+	.header-actions {
+		margin: 0 130px 0 0;
+	}
+
+	.header-actions .header-action-item {
+		padding-left: 13px;
+		padding-right: 13px;
+	}
+
+	.header-actions .action {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+
+	.header-actions .action i {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header-actions {
+		margin: 0 175px 0 0;
+	}
+
+	.header-actions .header-action-item  {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

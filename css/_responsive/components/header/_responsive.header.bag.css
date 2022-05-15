@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+	.header-bag {
+		width: 134px;
+		height: 140px;
+		margin-top: 0px;
+		margin-bottom: -70px;
+		font-size: 15px;
+	}
+
+	.header-bag b {
+		font-size: 16px;
+	}
+
+	.header-bag .icon-bag {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.header-bag .badge {
+		top: 26px;
+    	right: 41px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header-bag {
+		width: 164px;
+		height: 173px;
+		margin-top: 0px;
+		margin-bottom: -95px;
+		font-size: 17px;
+	}
+
+	.header-bag b {
+		font-size: 18px;
+	}
+
+	.header-bag .badge {
+	    top: 35px;
+    	right: 48px;
+	}
+}

@@ -1,0 +1,12 @@
+@media (min-width: 992px) {
+	.attribute-item {
+		margin-top: 1px;
+		margin-bottom: 1px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.attributes-list {
+		font-size: 15px;
+	}
+}

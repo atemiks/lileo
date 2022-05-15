@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+	.rating-count span {
+		display: inline;
+	}
+}
+
+@media (min-width: 1200px) {
+	.rating-list {
+		margin: 0 10px 0 0;
+	}
+
+	.rating-count {
+		font-size: 15px;
+	}
+}

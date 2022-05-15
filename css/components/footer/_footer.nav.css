@@ -1,0 +1,25 @@
+.links-footer {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.links-footer .link-item {
+	display: block;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.links-footer .link {
+	color: inherit;
+}
+
+.links-footer .link:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.links-footer.bolder {
+	font-weight: 600;
+}

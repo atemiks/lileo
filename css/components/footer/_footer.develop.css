@@ -1,0 +1,24 @@
+.develop {
+	float: right;
+	max-width: 160px;
+	margin: 9px 0 0 auto;
+}
+
+.develop .develop-btn {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.28;
+	color: #fff;
+	text-decoration: none;
+}
+
+.develop .develop-btn:hover {
+	color: #fff;
+}
+
+.develop .develop-btn img {
+	width: 74px;
+	margin-right: 10px;
+}

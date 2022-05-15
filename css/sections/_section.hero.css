@@ -1,0 +1,64 @@
+.section-hero {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+.swiper-hero {
+	text-align: center;
+}
+
+.swiper-hero .swiper-button-prev,
+.swiper-hero .swiper-button-next {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	outline: none;
+	width: 30px;
+	height: 42px;
+	background-image: none;
+}
+
+.swiper-hero .swiper-button-prev {
+	left: 0;
+}
+
+.swiper-hero .swiper-button-next {
+	right: 0;
+}
+
+.swiper-hero .swiper-button-prev:before,
+.swiper-hero .swiper-button-next:before {
+	display: none;
+}
+
+.swiper-hero .swiper-button-prev:after,
+.swiper-hero .swiper-button-next:after {
+	font-size: 15px;
+	color: #b9b9b9;
+}
+
+
+.swiper-hero .swiper-pagination {
+	position: relative;
+	bottom: 0;
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	line-height: 1;
+}
+
+.swiper-hero .swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	border: 5px solid transparent;
+	border-radius: 50%;
+	background: #b9b9b9;
+	background-clip: padding-box;
+}
+
+.swiper-hero .swiper-pagination-bullet-active {
+	border-width: 6px;
+	border-color: #822cbd;
+	background-color: #fff;
+}

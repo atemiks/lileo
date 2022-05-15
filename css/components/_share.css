@@ -1,0 +1,13 @@
+.share {
+	cursor: default;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.share-item {
+	display: inline-block;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}

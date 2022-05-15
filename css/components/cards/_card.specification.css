@@ -1,0 +1,23 @@
+.specification-card {
+	display: -ms-flex;
+	display: flex;
+	width: 100%;
+	font-size: 13px;
+}
+
+.specification-label,
+.specification-value {
+	flex: 0 0 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.25;
+}
+
+.specification-label {
+	font-weight: 600;
+}
+
+.specification-value {
+	font-weight: 300;
+	color: #2c2c2c;
+}

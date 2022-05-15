@@ -1,0 +1,35 @@
+.testimonial-card  {
+	font-size: 13px;
+	color: #2c2c2c;
+	line-height: 1.7;
+}
+
+.testimonial-card .testimonial-name {
+	float: left;
+	margin: 0 15px 5px 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+	line-height: 23px;
+}
+
+.testimonial-card .testimonial-date {
+	position: relative;
+	margin: 0 0 5px;
+	font-size: 13px;
+	color: #656565;
+	line-height: 23px;
+}
+
+.testimonial-card .testimonial-date:before {
+	content: '\e911';
+	font-family: 'icomoon';
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+
+.testimonial-card .testimonial-description {
+	clear: both;
+	margin: 8px 0 0;
+}

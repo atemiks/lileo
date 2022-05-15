@@ -1,0 +1,81 @@
+.pagination {
+	cursor: default;
+	position: relative;
+	margin: 15px 0 35px;
+	padding: 0 20px;
+	list-style: none;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.pagination i {
+	position: relative;
+	margin: 0 5px;
+	transition: 300ms ease;
+}
+
+.pagination .page-item {
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.pagination .page-item.prev,
+.pagination .page-item.next {
+	position: absolute;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 0;
+}
+
+.pagination .page-item.prev {
+	left: -10px;
+}
+
+.pagination .page-item.next {
+	right: -10px;
+}
+
+.pagination .page-item.prev i {
+	left: 0;
+	font-size: 15px;
+}
+
+.pagination .page-item.next i {
+	right: 0;
+	font-size: 15px;
+}
+
+
+.pagination .page-link {
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	height: 36px;
+	padding: 1px 6px;
+	border-top: 5px solid transparent; 
+	border-bottom: 5px solid transparent; 
+	transition: border-color 300ms ease;
+	text-decoration: none;
+}
+
+.pagination .page-link:hover,
+.pagination .page-item.active .page-link {
+	border-color: #822cbd;
+}
+
+.pagination .page-item.prev:hover .page-link,
+.pagination .page-item.next:hover .page-link {
+	border-color: transparent;
+}
+
+.pagination .page-item.prev:hover .page-link i {
+	left: -5px;
+}
+
+.pagination .page-item.next:hover .page-link i {
+	right: -5px;
+}

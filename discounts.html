@@ -1,0 +1,2417 @@
+<!doctype html>
+<html lang="ru">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootsrap-custom.css">
+        <link rel="stylesheet" href="vendor/nanoScrollerJS/nanoscroller.css">
+        <link rel="stylesheet" href="vendor/select2/select2.min.css">
+        <link rel="stylesheet" href="vendor/swiper/swiper.min.css">
+        <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.structure.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Lileo.ru</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="inner">
+                <header class="header-box">
+                    <div class="header-main">
+                        <div class="container">
+                            <div class="row flex-nowrap align-items-center">
+                                <div class="col-auto d-lg-none order-1">
+                                    <button class="offcanvas-toggler">
+                                        <i class="icon-bars" ></i>
+                                        <span class="text">Меню</span>
+                                    </button>
+                                </div>
+
+                                <div class="col-auto order-2">
+                                    <div class="logo header-logo">
+                                        <a href="index.html" class="logo-link">
+                                            <img src="images/logo.svg" alt="Lileo" class="logo-img">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col col-xxl-auto d-none d-lg-block order-3">
+                                    <ul class="links-list links-header">
+                                        <!-- todo: активный элемент меню -->
+                                        <li class="link-item active">
+                                            <a href="#link" class="link">О магазине</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="#link" class="link">Доставка и оплата</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="#link" class="link">Гарантии и возврат</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="#link" class="link">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-auto mx-auto mx-lg-0 d-none d-sm-block order-4 order-md-5">
+                                    <div class="contact header-contact">
+                                        <a href="tel:88002000000">
+                                            <i class="icon-phone" ></i> 
+                                            8 800 200 00 00
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto col-md col-lg-auto ml-auto mx-lg-auto order-5 order-md-4">
+                                    <button class="search-toggler d-md-none" >
+                                        <i class="icon-search" ></i>
+                                    </button>
+
+                                    <div class="header-search search">
+                                        <input type="search" class="search-input" placeholder="Что ищете?" required >
+                                        <button type="submit" class="search-btn" >
+                                            <i class="icon-search" ></i>
+                                        </button>
+
+                                        <button class="search-close d-md-none" >
+                                            <i class="icon-close" ></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto order-6">
+                                    <a href="cart.html" class="header-bag">
+                                        <span class="badge badge-light">9</span>
+                                        <i class="icon-bag" ></i>
+                                        Корзина <b>5 250 <i class="icon-rouble" ></i></b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="subheader">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <nav class="main-nav">
+                                        <ul class="nav-list">
+                                            <li class="nav-item has-children selected">
+                                                <a href="catalog.html" class="nav-link">
+                                                    <i class="icon-bars" ></i>
+                                                    Домашняя одежда
+                                                    <i class="icon-angle-down" ></i>
+                                                </a>
+
+                                                <ul class="subnav">
+                                                    <!-- todo: активный элемент меню -->
+                                                    <li class="subnav-item active">
+                                                        <a href="catalog.html" class="subnav-link">Комплекты</a>
+                                                    </li>
+                                                    <li class="subnav-item">
+                                                        <a href="catalog.html" class="subnav-link">Пижамы</a>
+                                                    </li>
+                                                    <li class="subnav-item">
+                                                        <a href="catalog.html" class="subnav-link">Сорочки</a>
+                                                    </li>
+                                                    <li class="subnav-item">
+                                                        <a href="catalog.html" class="subnav-link">Халаты</a>
+                                                    </li>
+                                                    <li class="subnav-item">
+                                                        <a href="catalog.html" class="subnav-link">Пеньюары</a>
+                                                    </li>
+                                                    <li class="subnav-item">
+                                                        <a href="catalog.html" class="subnav-link">Туники</a>
+                                                    </li>
+                                                    <li class="subnav-item">
+                                                        <a href="catalog.html" class="subnav-link">Леггинсы</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- todo: активный элемент меню -->
+                                            <li class="nav-item active">
+                                                <a href="catalog.html" class="nav-link">
+                                                    Хиты продаж
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="catalog.html" class="nav-link">
+                                                    Акции
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="catalog.html" class="nav-link">
+                                                    Наш выбор
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="col-auto d-none d-sm-block">
+                                    <ul class="header-actions">
+                                        <li class="header-action-item">
+                                            <a href="#link" class="action">
+                                                <i class="icon-heart" ></i>
+                                                <span class="badge badge-light">0</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </header>
+
+                <main class="main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <nav aria-label="breadcrumb">
+                                    <ul class="breadcrumb">
+                                        <li class="breadcrumb-item">
+                                            <a href="#link">
+                                                <i class="icon-home" ></i>
+                                            </a>
+                                        </li>
+                                        <li class="breadcrumb-item active" aria-current="page">Акции</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="display-header">
+                                    <div class="display-title">Акции</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <section class="section-hero mb-md-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="hero-card" style="background-image: url('uploads/page-discounts/section-hero/hero-slide-1.jpg')" >
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="hero-content-col col-6 col-md-5 offset-6 align-self-center">
+                                                    <div class="hero-title">Сезонные скидки -50%</div>
+                                                    <div class="hero-text">Было бы интересно, если на товары «Наш выбор» приводился экспертный обзор. </div>
+                                                    <a href="#link" class="hero-action btn btn-lg">
+                                                        Смотреть товары
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section-news">
+                        <div class="container">
+                            <div class="news-grid row">
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-1.png')"></a>
+                                        <a href="#link" class="news-title">-55% на все и выше</a>
+                                        <div class="news-description">Мы чистим склад и поэтому устраиваем обвал цен. Забирайте столько, сколько сможете!</div>
+                                        <div class="news-status">5 дней до конца</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-2.png')"></a>
+                                        <a href="#link" class="news-title">TOTAL SALE: Платья домашние любых размеров</a>
+                                        <div class="news-description">Pабирайте столько, сколько сможете!</div>
+                                        <div class="news-status">5 дней до конца</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-3.png')"></a>
+                                        <a href="#link" class="news-title">До 50% на коллекции MANGO</a>
+                                        <div class="news-description">Мы чистим склад и поэтому устраиваем обвал цен. Забирайте столько, сколько сможете!</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-4.png')"></a>
+                                        <a href="#link" class="news-title">У нас есть и одежда для детей</a>
+                                        <div class="news-description">Мы чистим склад и поэтому устраиваем обвал цен. Забирайте столько, сколько сможете!</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-1.png')"></a>
+                                        <a href="#link" class="news-title">-55% на все и выше</a>
+                                        <div class="news-description">Мы чистим склад и поэтому устраиваем обвал цен. Забирайте столько, сколько сможете!</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-2.png')"></a>
+                                        <a href="#link" class="news-title">TOTAL SALE: Платья домашние любых размеров</a>
+                                        <div class="news-description">Pабирайте столько, сколько сможете!</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-3.png')"></a>
+                                        <a href="#link" class="news-title">До 50% на коллекции MANGO</a>
+                                        <div class="news-description">Мы чистим склад и поэтому устраиваем обвал цен. Забирайте столько, сколько сможете!</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-6 col-md-3">
+                                    <div class="news-card">
+                                        <a href="#link" class="news-thumbnail" style="background-image: url('uploads/page-discounts/section-news/news-item-4.png')"></a>
+                                        <a href="#link" class="news-title">У нас есть и одежда для детей</a>
+                                        <div class="news-description">Мы чистим склад и поэтому устраиваем обвал цен. Забирайте столько, сколько сможете!</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="pagination">
+                                        <li class="page-item prev">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <i class="icon-arrow-left" aria-hidden="true" ></i>
+                                                Назад
+                                            </a>
+                                        </li>
+                                        <li class="page-item active">
+                                            <a class="page-link" href="#link">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#link">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#link">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#link">4</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#link">5</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#link">6</a>
+                                        </li>
+                                        <li class="page-item next">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                Далее
+                                                <i class="icon-arrow-right" aria-hidden="true" ></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section-viewed">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="section-header">
+                                        <div class="section-title">Вы <br> недавно <br> смотрели</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="swiper-cover">
+                                        <div class="swiper-container swiper-products swiper-viewed">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide col-md-3 col-xxl-2">
+                                                    <a href="product.html" class="swiper-card">
+                                                        <button class="btn-close">
+                                                            <i class="icon-close" ></i>
+                                                        </button>
+                                                        
+                                                        <div class="swiper-thumbnail">
+                                                            <img src="uploads/page-discounts/section-viewed/product-item-1.jpg" alt="Комплект тройка" class="swiper-img">
+                                                        </div>
+                                                        <div class="swiper-title">Комплект тройка</div>
+                                                        <div class="swiper-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+
+                                                <div class="swiper-slide col-md-3 col-xxl-2">
+                                                    <a href="product.html" class="swiper-card">
+                                                        <button class="btn-close">
+                                                            <i class="icon-close" ></i>
+                                                        </button>
+                                                        
+                                                        <div class="swiper-thumbnail">
+                                                            <img src="uploads/page-discounts/section-viewed/product-item-2.jpg" alt="Костюм домашний, Lika Dress" class="swiper-img">
+                                                        </div>
+                                                        <div class="swiper-title">Костюм домашний, Lika Dress</div>
+                                                        <div class="swiper-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+
+                                                <div class="swiper-slide col-md-3 col-xxl-2">
+                                                    <a href="product.html" class="swiper-card">
+                                                        <button class="btn-close">
+                                                            <i class="icon-close" ></i>
+                                                        </button>
+                                                        
+                                                        <div class="swiper-thumbnail">
+                                                            <img src="uploads/page-discounts/section-viewed/product-item-3.jpg" alt="Костюм домашний, Весталия" class="swiper-img">
+                                                        </div>
+                                                        <div class="swiper-title">Костюм домашний, Весталия</div>
+                                                        <div class="swiper-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+
+                                                <div class="swiper-slide col-md-3 col-xxl-2">
+                                                    <a href="product.html" class="swiper-card">
+                                                        <button class="btn-close">
+                                                            <i class="icon-close" ></i>
+                                                        </button>
+                                                        
+                                                        <div class="swiper-thumbnail">
+                                                            <img src="uploads/page-discounts/section-viewed/product-item-4.jpg" alt="Костюм домашний" class="swiper-img">
+                                                        </div>
+                                                        <div class="swiper-title">Костюм домашний</div>
+                                                        <div class="swiper-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+
+                                                <div class="swiper-slide col-md-3 col-xxl-2">
+                                                    <a href="product.html" class="swiper-card">
+                                                        <button class="btn-close">
+                                                            <i class="icon-close" ></i>
+                                                        </button>
+                                                        
+                                                        <div class="swiper-thumbnail">
+                                                            <img src="uploads/page-discounts/section-viewed/product-item-5.jpg" alt="Костюм, брюки" class="swiper-img">
+                                                        </div>
+                                                        <div class="swiper-title">Костюм, брюки</div>
+                                                        <div class="swiper-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+
+                                                <div class="swiper-slide col-md-3 col-xxl-2">
+                                                    <a href="product.html" class="swiper-card">
+                                                        <button class="btn-close">
+                                                            <i class="icon-close" ></i>
+                                                        </button>
+                                                        
+                                                        <div class="swiper-thumbnail">
+                                                            <img src="uploads/page-discounts/section-viewed/product-item-6.jpg" alt="Костюм" class="swiper-img">
+                                                        </div>
+                                                        <div class="swiper-title">Костюм</div>
+                                                        <div class="swiper-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- If we need navigation buttons -->
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+
+            <footer class="footer-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3">
+                            <div class="row">
+                                <div class="col-auto col-md-12">
+                                    <div class="footer-logo logo">
+                                        <a href="index.html" class="logo-link">
+                                            <img src="images/logo-light.svg" alt="Lileo" class="logo-img">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col col-md-12 align-self-center">
+                                    <div class="copyright">
+                                        <p>&copy; 2019 <span class="text-nowrap" >Интернет-магазин</span> домашней одежды</p>
+                                        <p class="d-none d-md-block text-secondary" >Все права защищены. При любом копировании материалов - ссылка на сайт-источник обязательна</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 col-lg d-none d-md-block">
+                            <div class="row">
+                                <div class="footer-nav-col col-md-6 col-xxl-5">
+                                    <div class="footer-title">Домашняя одежда</div>
+                                    <ul class="links-list links-footer bolder">
+                                        <!-- todo: активный элемент меню -->
+                                        <li class="link-item active">
+                                            <a href="catalog.html" class="link">комплекты</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">пижамы</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">сорочки</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">халаты</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">пеньюары</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">туники</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">леггинсы</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer-nav-col col-md-6 col-xxl-5">
+                                    <ul class="links-list links-footer">
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">О магазине</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">Доставка и оплата</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">Гарантии и возврат</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">Контакты</a>
+                                        </li>
+                                        <li class="link-item">
+                                            <a href="catalog.html" class="link">Сотрудничество</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-auto">
+                            <div class="footer-search search">
+                                <input type="search" class="search-input" placeholder="Что ищете?" required>
+                                <button type="submit" class="search-btn">
+                                    <i class="icon-search"></i>
+                                </button>
+                            </div>
+
+                            <div class="develop">
+                                <!-- develop block-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="bg0"></div>
+
+        <div class="offcanvas">
+            <div class="offcanvas-header">
+                <div class="offcanvas-row">
+                    <button class="offcanvas-close">
+                        <i class="icon-close" ></i>
+                    </button>
+
+                    <div class="offcanvas-search search">
+                        <input type="search" class="search-input" placeholder="Что ищете?" required="">
+                        <button type="submit" class="search-btn">
+                            <i class="icon-search"></i>
+                        </button>
+                    </div>
+
+                    <a href="#link" class="offcanvas-bag">
+                        <i class="icon-bag"></i>
+                        <span class="badge badge-light">9</span>
+                    </a>
+                </div>
+
+                <div class="offcanvas-row">
+                    <div class="offcanvas-contact">
+                        <a href="tel:88002000000">
+                            <i class="icon-phone"></i> 
+                            8 800 200 00 00
+                        </a>
+                    </div>
+
+                    <ul class="offcanvas-actions">
+                        <li class="offcanvas-action-item">
+                            <a href="#link" class="action">
+                                <i class="icon-heart"></i>
+                                <span class="badge badge-light">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="offcanvas-menu">
+                    <li class="offcanvas-menu-item has-children in">
+                        <a href="#link" class="offcanvas-menu-link">домашняя одежда</a>
+
+                        <ul class="offcanvas-dropmenu">
+                            <!-- todo: активный элемент меню -->
+                            <li class="offcanvas-dropmenu-item active">
+                                <a href="#link" class="offcanvas-dropmenu-link">Комплекты</a>
+                            </li>
+                            <li class="offcanvas-dropmenu-item">
+                                <a href="#link" class="offcanvas-dropmenu-link">Пижамы</a>
+                            </li>
+                            <li class="offcanvas-dropmenu-item">
+                                <a href="#link" class="offcanvas-dropmenu-link">Сорочки</a>
+                            </li>
+                            <li class="offcanvas-dropmenu-item">
+                                <a href="#link" class="offcanvas-dropmenu-link">Халаты</a>
+                            </li>
+                            <li class="offcanvas-dropmenu-item">
+                                <a href="#link" class="offcanvas-dropmenu-link">Пеньюары</a>
+                            </li>
+                            <li class="offcanvas-dropmenu-item">
+                                <a href="#link" class="offcanvas-dropmenu-link">Туники</a>
+                            </li>
+                            <li class="offcanvas-dropmenu-item">
+                                <a href="#link" class="offcanvas-dropmenu-link">Леггинсы</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- todo: активный элемент меню -->
+                    <li class="offcanvas-menu-item active" >
+                        <a href="#link" class="offcanvas-menu-link">Хиты продаж</a>
+                    </li>
+                    <li class="offcanvas-menu-item" >
+                        <a href="#link" class="offcanvas-menu-link">Акции</a>
+                    </li>
+                    <li class="offcanvas-menu-item" >
+                        <a href="#link" class="offcanvas-menu-link">Наш выбор</a>
+                    </li>
+                </ul>
+
+                <ul class="offcanvas-submenu">
+                    <!-- todo: активный элемент меню -->
+                    <li class="offcanvas-submenu-item active">
+                        <a href="#link" class="offcanvas-submenu-link">О магазине</a>
+                    </li>
+                    <li class="offcanvas-submenu-item">
+                        <a href="#link" class="offcanvas-submenu-link">Доставка и оплата</a>
+                    </li>
+                    <li class="offcanvas-submenu-item">
+                        <a href="#link" class="offcanvas-submenu-link">Гарантии и возврат</a>
+                    </li>
+                    <li class="offcanvas-submenu-item">
+                        <a href="#link" class="offcanvas-submenu-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalLoginLabel">Вход</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="" class="form-modal">
+                            <div class="form-group">
+                                <label for="formLoginName">Ваше имя</label>
+                                <input type="text" name="formLoginName" required >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formLoginPassword">Пароль</label>
+                                <input type="password" name="formLoginPassword" required >
+                            </div>
+
+                            <div class="form-group">
+                                <a href="#link" data-toggle="modal" data-target="#modalReset" >Забыли пароль?</a>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn" >Войти</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <a href="#link" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#modalRegistration" >Зарегистрироваться</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <div class="text-center">
+                            <p>Или войдите через социальные сети</p>
+
+                            <ul class="social-list">
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/vk.png" alt="vk">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/facebook.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/twitter.png" alt="twitter">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/instagram.png" alt="instagram">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/youtube.png" alt="youtube">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalRegistration" tabindex="-1" role="dialog" aria-labelledby="modalRegistrationLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalRegistrationLabel">Регистрация</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="" class="form-modal">
+                            <div class="form-group">
+                                <label for="formRegistrationName">Ваше имя</label>
+                                <input type="text" name="formRegistrationName" required >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formRegistrationEmail">Ваше e-mail</label>
+                                <input type="email" name="formRegistrationEmail" required >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formLoginPassword">Пароль</label>
+                                <input type="password" name="formLoginPassword" required >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formLoginPasswordRepeat">Повторите пароль</label>
+                                <input type="password" name="formLoginPasswordRepeat" required >
+                            </div>
+
+
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-block" >Зарегистрироваться</button>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="form-group">
+                                        <a href="#link" data-toggle="modal" data-target="#modalLogin" >Или войти</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <div class="text-center">
+                            <p>Или войдите через социальные сети</p>
+
+                            <ul class="social-list">
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/vk.png" alt="vk">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/facebook.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/twitter.png" alt="twitter">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/instagram.png" alt="instagram">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#link" class="social-link">
+                                        <img src="images/icons/youtube.png" alt="youtube">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalReset" tabindex="-1" role="dialog" aria-labelledby="modalResetLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalResetLabel">Забыли пароль?</div>
+                        <div class="modal-description">Введите e-mail, указанный при регистрации, и мы отправим Вам ссылку для обновления пароля</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="" class="form-modal">
+                            <div class="form-group">
+                                <label for="formResetEmail">Ваш e-mail</label>
+                                <input type="email" name="formResetEmail" required >
+                            </div>
+
+                            <div class="form-gorup">
+                                <button type="submit" class="btn" >Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalOrder" tabindex="-1" role="dialog" aria-labelledby="modalOrderLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalOrderLabel">Товар добавлен в корзину</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="order-card no-gutters">
+                            <div class="order-aside col-auto">
+                                <div class="order-col media-col">
+                                    <a href="product.html" class="order-media">
+                                        <img src="uploads/modal/order/order-item-1.jpg" alt="Костюм домашний">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="order-content col">
+                                <div class="row no-gutters">
+                                    <div class="order-col summary-col col">
+                                        <div class="order-title">
+                                            <a href="product.html">Костюм домашний, <br> Елена Текс</a>
+                                        </div>
+
+                                        <div class="code-block">
+                                            Код товара <br> <b class="code">6068109</b>
+                                        </div>
+                                    </div>
+
+                                    <div class="order-col price-col col-auto d-none d-sm-block">
+                                        <div class="order-subtitle">Цена</div>
+                                        <div class="order-price product-price">
+                                            <div class="price-current">1 450 <i class="icon-rouble" ></i></div>
+                                            <div class="price-old">2 700 <i class="icon-rouble" ></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gutters align-items-center justify-content-between">
+                                    <div class="order-col color-col col-12 col-sm-auto">
+                                        <div class="order-subtitle">Цвет</div>
+                                        <div class="order-color">
+                                            <img src="uploads/colors/color-beige.png" alt="Бежевый">
+                                            бежевый
+                                        </div>
+                                    </div>
+
+                                    <div class="order-col size-col col-12 col-sm-auto">
+                                        <div class="order-subtitle">Размер</div>
+                                        <div class="order-size">
+                                            50
+                                        </div>
+                                    </div>
+
+                                    <div class="order-col quantity-col col-12 col-sm-auto">
+                                        <div class="order-subtitle">Кол-во</div>
+                                        <div class="custom-number">
+                                            <input type="text" value="1">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <p class="modal-hint text-left">
+                            Вы можете <a href="index.html">продолжить покупки</a>, а также
+                        </p>
+                        <div class="btn-group">
+                            <a href="#link" class="btn">Оформить быстрый заказ</a>
+                            <a href="#link" class="btn btn-primary ">Перейти в корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="modalOneTouch" tabindex="-1" role="dialog" aria-labelledby="modalOneTouchLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalOneTouchLabel">Купить в 1 клик</div>
+                        <div class="modal-subtitle">Введите ваше имя и номер телефона и мы перезвоним Вам в течение 5 минут</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="order-list">
+                            <div class="order-item">
+                                <div class="order-card no-gutters">
+                                    <div class="order-aside col-auto">
+                                        <div class="order-col media-col">
+                                            <a href="product.html" class="order-media">
+                                                <img src="uploads/page-cart/section-order/order-item-1.jpg" alt="Костюм домашний">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="order-content col">
+                                        <div class="order-content-left">
+                                            <div class="order-col summary-col">
+                                                <div class="order-title">
+                                                    <a href="product.html">Костюм домашний, Елена Текс</a>
+                                                </div>
+
+                                                <div class="code-block">
+                                                    Код товара <br> <b class="code">6068109</b>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-col color-col">
+                                                <div class="order-subtitle">Цвет</div>
+                                                <div class="order-color">
+                                                    <img src="uploads/colors/color-beige.png" alt="Бежевый">
+                                                    бежевый
+                                                </div>
+                                            </div>
+
+                                            <div class="order-col size-col">
+                                                <div class="order-subtitle">Размер</div>
+                                                <div class="order-size">
+                                                    50
+                                                </div>
+                                            </div>
+
+                                            <div class="order-col quantity-col">
+                                                <div class="order-subtitle">Кол-во</div>
+                                                <div class="custom-number">
+                                                    <input type="text" value="1">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="order-content-right">
+                                            <div class="order-col price-col d-none d-md-block">
+                                                <div class="order-subtitle">Цена</div>
+                                                <div class="order-price product-price">
+                                                    <div class="price-current">1 450 <i class="icon-rouble" ></i></div>
+                                                    <div class="price-old">2 700 <i class="icon-rouble" ></i></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-col remove-col ml-auto ml-lg-0">
+                                                <button class="order-action">
+                                                    <i class="icon-close" ></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-total">
+                            <div class="cart-total-title d-inline align-middle">Итого</div>
+                            <div class="cart-total-value lead d-inline align-middle">15 450 <i class="icon-rouble" ></i></div>
+                        </div>
+
+                        <form action="" class="form-modal">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="formOneTouchName">Ваше имя</label>
+                                        <input type="text" id="formOneTouchName" required >
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="formOneTouchPhone">Ваш телефон</label>
+                                        <input type="tel" id="formOneTouchPhone" placeholder="+7 ( ____ ) - ____ - __ - __" required >
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn" >Отправить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalSizeChart" tabindex="-1" role="dialog" aria-labelledby="modalSizeChartLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalSizeChartLabel">Таблица размеров</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="sizechart-grid">
+                            <div class="sizechart-head">
+                                <div class="row">
+                                    <div class="col" >
+                                        <div class="d-none d-md-block">Российский размер</div>
+                                        <div class="d-md-none">Россий-<br>ский размер</div>
+                                        
+                                    </div>
+                                    <div class="col" >
+                                        <div class="d-none d-md-block">Обхват груди, в см</div>
+                                        <div class="d-md-none">Обхват груди,<br> в см</div>
+                                        
+                                    </div>
+                                    <div class="col" >
+                                        <div class="d-none d-md-block">Обхват талии, в см</div>
+                                        <div class="d-md-none">Обхват талии,<br> в см</div>
+                                        
+                                    </div>
+                                    <div class="col" >
+                                        <div class="d-none d-md-block">Обхват бедер, в см</div>
+                                        <div class="d-md-none">Обхват бедер,<br> в см</div>
+                                        
+                                    </div>
+                                    <div class="col" >
+                                        <div class="d-none d-md-block">Размер производителя</div>
+                                        <div class="d-md-none">Размер производи-<br>теля</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sizechart-body">
+                                <div class="row">
+                                    <div class="col" >48</div>
+                                    <div class="col" >94-98</div>
+                                    <div class="col" >74-78</div>
+                                    <div class="col" >102-106</div>
+                                    <div class="col" >48</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col" >50</div>
+                                    <div class="col" >98-102</div>
+                                    <div class="col" >78-82</div>
+                                    <div class="col" >106-110</div>
+                                    <div class="col" >50</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col" >52</div>
+                                    <div class="col" >102-106</div>
+                                    <div class="col" >82-86</div>
+                                    <div class="col" >110-114</div>
+                                    <div class="col" >52</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col" >54</div>
+                                    <div class="col" >106-110</div>
+                                    <div class="col" >86-90</div>
+                                    <div class="col" >114-118</div>
+                                    <div class="col" >54</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col" >56</div>
+                                    <div class="col" >110-114</div>
+                                    <div class="col" >90-94</div>
+                                    <div class="col" >118-122</div>
+                                    <div class="col" >56</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalSize" tabindex="-1" role="dialog" aria-labelledby="modalSizeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalSizeLabel">Выберите ваш размер</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="sizes-block">
+                            <div class="sizes-list">
+                                <div class="size-item">
+                                    <input type="radio" id="modal-product-size-1" name="product-size-radio">
+                                    <label for="modal-product-size-1">
+                                        46
+                                    </label>
+                                </div>
+
+                                <div class="size-item">
+                                    <input type="radio" id="modal-product-size-2" name="product-size-radio">
+                                    <label for="modal-product-size-2">
+                                        48
+                                    </label>
+                                </div>
+
+                                <div class="size-item">
+                                    <input type="radio" id="modal-product-size-3" name="product-size-radio">
+                                    <label for="modal-product-size-3">
+                                        58
+                                    </label>
+                                </div>
+
+                                <div class="size-item">
+                                    <input type="radio" id="modal-product-size-4" name="product-size-radio">
+                                    <label for="modal-product-size-4">
+                                        60
+                                    </label>
+                                </div>
+
+                                <div class="size-item">
+                                    <input type="radio" id="modal-product-size-5" name="product-size-radio">
+                                    <label for="modal-product-size-5">
+                                        62
+                                    </label>
+                                </div>
+
+                                <div class="size-item">
+                                    <input type="radio" id="modal-product-size-6" name="product-size-radio">
+                                    <label for="modal-product-size-6">
+                                        64
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="size-hint">
+                                Размер на этикетке: 52
+                                <a href="javascript:void(0);" class="btn-why">
+                                    <span>Почему?</span>
+                                </a>
+                            </div>
+
+                            <div class="sizechart">
+                                <a href="javascript:void(0);" class="sizechart-btn" data-toggle="modal" data-target="#modalSizeChart">
+                                    <span>Таблица размеров</span>
+                                </a>
+
+                                <div class="sizechart-hint">
+                                    Соответствие с популярными размерными системами
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <a href="javascript:void(0);" class="btn" data-toggle="modal" data-target="#modalOrder" >Добавить в корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalAddReview" tabindex="-1" role="dialog" aria-labelledby="modalAddReviewLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title" id="modalAddReviewLabel">Оставить отзыв</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="" class="form-modal">
+                            <div class="form-group">
+                                <div class="field-rating">
+                                    <input type="radio" value="1" id="review-rating-01" name="review-rating">
+                                    <label for="review-rating-01" class="icon-star"></label>
+
+                                    <input type="radio" value="2" id="review-rating-02" name="review-rating">
+                                    <label for="review-rating-02" class="icon-star"></label>
+
+                                    <input type="radio" value="3" id="review-rating-03" name="review-rating">
+                                    <label for="review-rating-03" class="icon-star"></label>
+
+                                    <input type="radio" value="4" id="review-rating-04" name="review-rating">
+                                    <label for="review-rating-04" class="icon-star"></label>
+
+                                    <input type="radio" value="5" id="review-rating-05" name="review-rating">
+                                    <label for="review-rating-05" class="icon-star"></label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="formReviewName">Ваше имя</label>
+                                        <input type="text" id="formReviewName" required >
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="formReviewEmail">Ваш e-mail</label>
+                                        <input type="email" id="formReviewEmail" required >
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formReviewText">Текст отзыва</label>
+                                <textarea id="formReviewText"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn" >Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalPreview" tabindex="-1" role="dialog" aria-labelledby="modalPreviewLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="icon-close" ></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="swiper-container swiper-preview">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product product-preview">
+                                        <div class="row no-gutters">
+                                            <div class="product-preview-aside">
+                                                <div class="product-media-wrapper">
+                                                    <div class="product-photomodel">
+                                                        <div class="product-photomodel-title">Фотомодель:</div>
+                                                        <div class="product-photomodel-info">80-57-91 <br> рост 174 <br> размер S (42)</div>
+                                                    </div>
+
+                                                    <ul class="product-labels">
+                                                        <li class="product-label-item">
+                                                            <div class="label label-purple label-lead lg">NEW</div>
+                                                        </li>
+                                                        <li class="product-label-item">
+                                                            <div class="label label-danger lg">Наш выбор!</div>
+                                                        </li>
+                                                    </ul>
+
+                                                    <div class="swiper-product-wrapper">
+                                                        <div class="swiper-product-media swiper-container">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-1.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-2.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-3.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-4.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-2.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-3.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- If we need navigation buttons -->
+                                                            <div class="swiper-button-prev"></div>
+                                                            <div class="swiper-pagination"></div>
+                                                            <div class="swiper-button-next"></div>
+                                                        </div>
+
+                                                        <div class="product-thumbnails">
+                                                            <div class="swiper-product-thumbnails swiper-container">
+                                                                <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-1.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-2.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-3.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-4.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-2.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-3.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-button-prev"></div>
+                                                                <div class="swiper-button-next"></div>
+                                                            </div>
+                                                            
+                                                        </div>
+
+                                                        <ul class="share">
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-1.png" alt="">
+                                                                </a>
+                                                            </li>
+
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-2.png" alt="">
+                                                                </a>
+                                                            </li>
+
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-3.png" alt="">
+                                                                </a>
+                                                            </li>
+
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-4.png" alt="">
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="product-preview-content">
+                                                <div class="product-name">Костюм домашний, Елена Текс</div>
+                                                
+                                                <div class="row align-items-center no-gutters">
+                                                    <div class="col-auto col-md">
+                                                        <div class="code-block">
+                                                            Код товара <b class="code">6068109</b>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-auto">
+                                                        <div class="status available">В наличии</div>
+                                                    </div>
+
+                                                    <div class="col-sm-auto col-md-12 ml-sm-auto ml-md-0">
+                                                        <div class="rating-block">
+                                                            <ul class="rating-list">
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star disabled"></i>
+                                                                </li>
+                                                            </ul>
+
+                                                            <a href="#link" class="rating-count">5 <span>отзывов об этом товаре</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <ul class="product-attributes attributes-list">
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Бренд</div>
+                                                            <div class="attribute-value">Lileo</div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Страна производства</div>
+                                                            <div class="attribute-value">Россия</div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Состав</div>
+                                                            <div class="attribute-value">хлопок 95%, эластан 5%</div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Ткань</div>
+                                                            <div class="attribute-value">плотная, мягкая</div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                                <div class="colors-block">
+                                                    <p class="title" >Выберите цвет</p>
+                                                    <div class="colors-list">
+                                                        <div class="color-item active">
+                                                            <a href="#link" class="color-card">
+                                                                <div class="color-thumbnail">
+                                                                    <img src="uploads/modal/preview/colors/catalog-item-1.jpg" alt="" class="color-img">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="color-item">
+                                                            <a href="#link" class="color-card">
+                                                                <div class="color-thumbnail">
+                                                                    <img src="uploads/modal/preview/colors/catalog-item-2.jpg" alt="" class="color-img">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="color-item">
+                                                            <a href="#link" class="color-card">
+                                                                <div class="color-thumbnail">
+                                                                    <img src="uploads/modal/preview/colors/catalog-item-3.jpg" alt="" class="color-img">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sizes-block">
+                                                    <p class="title" >Выберите ваш размер</p>
+
+                                                    <div class="sizes-list">
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-1" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-1">
+                                                                    44
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-2" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-2">
+                                                                    48
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-3" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-3">
+                                                                    50
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-4" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-4">
+                                                                    52
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-5" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-5">
+                                                                    54
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-6" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-6">
+                                                                    56
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-7" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-7">
+                                                                    58
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-8" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-8">
+                                                                    60
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-9" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-9">
+                                                                    62
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-10" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-10">
+                                                                    64
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-11" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-11">
+                                                                    64 брак
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-12" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-12">
+                                                                    66
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-13" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-13">
+                                                                    68
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="size-hint">
+                                                        Размер на этикетке: 52
+                                                        <a href="javascript:void(0);" class="btn-why" >
+                                                            <span>Почему?</span>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="sizechart">
+                                                        <a href="javascript:void(0);" class="sizechart-btn" data-toggle="modal" data-target="#modalSizeChart" >
+                                                            <span>Таблица размеров</span>
+                                                        </a>
+
+                                                        <div class="sizechart-hint">
+                                                            Соответствие с популярными размерными системами
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="product-preview-bar">
+                                                <div class="product-bag">
+                                                    <div class="product-order">
+                                                        <div class="product-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+
+                                                        <a href="javascript:void(0);" class="product-bag-add" data-toggle="modal" data-target="#modalOrder" >
+                                                            <i class="icon-bag"></i>
+                                                            В корзину
+                                                        </a>
+                                                    </div>
+
+                                                    <ul class="product-actions">
+                                                        <li class="product-action-item" >
+                                                            <a href="javascript:void(0);" class="product-action" data-toggle="modal" data-target="#modalOneTouch" >
+                                                                <i class="icon-forward" ></i>
+                                                                <span>Купить сейчас</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="product-action-item">
+                                                            <a href="javascript:void(0);" class="product-action">
+                                                                <i class="icon-heart"></i>
+                                                                <span>Отложить</span>
+                                                            </a>
+
+                                                            <!-- todo: если товар добавлен в избранное - отображаем кнопку убрать -->
+                                                            <!-- <a href="javascript:void(0);" class="product-action">
+                                                                <i class="icon-heart-fill"></i>
+                                                                <span>Убрать</span>
+                                                            </a> -->
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="advantages-grid row align-items-md-center">
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-delivery"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">Доставка от 2х дней</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-fitting-room"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">Примерка перед покупкой</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-location"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">50 примерочных и пунктов самовывоза</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-calendar"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">Отправка заказа день-в-день</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="product product-preview">
+                                        <div class="row no-gutters">
+                                            <div class="product-preview-aside">
+                                                <div class="product-media-wrapper">
+                                                    <div class="product-photomodel">
+                                                        <div class="product-photomodel-title">Фотомодель:</div>
+                                                        <div class="product-photomodel-info">80-57-91 <br> рост 174 <br> размер S (42)</div>
+                                                    </div>
+
+                                                    <ul class="product-labels">
+                                                        <li class="product-label-item">
+                                                            <div class="label label-purple label-lead lg">NEW</div>
+                                                        </li>
+                                                        <li class="product-label-item">
+                                                            <div class="label label-danger lg">Наш выбор!</div>
+                                                        </li>
+                                                    </ul>
+
+                                                    <div class="swiper-product-wrapper">
+                                                        <div class="swiper-product-media swiper-container">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-1.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-2.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-3.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-4.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-2.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <div class="product-media">
+                                                                        <img src="uploads/modal/preview/media/product-preview-item-3.jpg" alt="" class="product-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- If we need navigation buttons -->
+                                                            <div class="swiper-button-prev"></div>
+                                                            <div class="swiper-pagination"></div>
+                                                            <div class="swiper-button-next"></div>
+                                                        </div>
+
+                                                        <div class="product-thumbnails">
+                                                            <div class="swiper-product-thumbnails swiper-container">
+                                                                <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-1.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-2.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-3.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-4.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-2.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="swiper-slide">
+                                                                        <div class="product-thumbnail">
+                                                                            <img src="uploads/modal/preview/thumbnails/product-preview-thumbnail-item-3.jpg" alt="" class="product-thumbnail-img">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="swiper-button-prev"></div>
+                                                                <div class="swiper-button-next"></div>
+                                                            </div>
+                                                            
+                                                        </div>
+
+                                                        <ul class="share">
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-1.png" alt="">
+                                                                </a>
+                                                            </li>
+
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-2.png" alt="">
+                                                                </a>
+                                                            </li>
+
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-3.png" alt="">
+                                                                </a>
+                                                            </li>
+
+                                                            <li class="share-item">
+                                                                <a href="#link">
+                                                                    <img src="uploads/icons/share/share-btn-4.png" alt="">
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="product-preview-content">
+                                                <div class="product-name">Костюм домашний, Елена Текс</div>
+                                                
+                                                <div class="row align-items-center no-gutters">
+                                                    <div class="col-auto col-md">
+                                                        <div class="code-block">
+                                                            Код товара <b class="code">6068109</b>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-auto">
+                                                        <div class="status available">В наличии</div>
+                                                    </div>
+
+                                                    <div class="col-sm-auto col-md-12 ml-sm-auto ml-md-0">
+                                                        <div class="rating-block">
+                                                            <ul class="rating-list">
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star"></i>
+                                                                </li>
+                                                                <li class="rating-item">
+                                                                    <i class="icon-star disabled"></i>
+                                                                </li>
+                                                            </ul>
+
+                                                            <a href="#link" class="rating-count">5 <span>отзывов об этом товаре</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <ul class="product-attributes attributes-list">
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Бренд</div>
+                                                            <div class="attribute-value">Lileo</div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Страна производства</div>
+                                                            <div class="attribute-value">Россия</div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Состав</div>
+                                                            <div class="attribute-value">хлопок 95%, эластан 5%</div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="attribute-item">
+                                                        <div class="attribute-card">
+                                                            <div class="attribute-label">Ткань</div>
+                                                            <div class="attribute-value">плотная, мягкая</div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                                <div class="colors-block">
+                                                    <p class="title" >Выберите цвет</p>
+                                                    <div class="colors-list">
+                                                        <div class="color-item active">
+                                                            <a href="#link" class="color-card">
+                                                                <div class="color-thumbnail">
+                                                                    <img src="uploads/modal/preview/colors/catalog-item-1.jpg" alt="" class="color-img">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="color-item">
+                                                            <a href="#link" class="color-card">
+                                                                <div class="color-thumbnail">
+                                                                    <img src="uploads/modal/preview/colors/catalog-item-2.jpg" alt="" class="color-img">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="color-item">
+                                                            <a href="#link" class="color-card">
+                                                                <div class="color-thumbnail">
+                                                                    <img src="uploads/modal/preview/colors/catalog-item-3.jpg" alt="" class="color-img">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sizes-block">
+                                                    <p class="title" >Выберите ваш размер</p>
+
+                                                    <div class="sizes-list">
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-20" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-20">
+                                                                    44
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-21" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-21">
+                                                                    48
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-22" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-22">
+                                                                    50
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-23" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-23">
+                                                                    52
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-24" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-24">
+                                                                    54
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-25" name="product-preview-size-radio" disabled="disabled" >
+                                                                <label for="product-preview-size-25">
+                                                                    56
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-26" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-26">
+                                                                    58
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-27" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-27">
+                                                                    60
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-28" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-28">
+                                                                    62
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="size-item">
+                                                            <div class="size-card">
+                                                                <input type="radio" id="product-preview-size-29" name="product-preview-size-radio">
+                                                                <label for="product-preview-size-29">
+                                                                    64
+                                                                </label>
+                                                                
+                                                                <div class="tooltip">
+                                                                    <ul class="tooltip-list" >
+                                                                        <li>Российский рамзер: <span>44</span></li>
+                                                                        <li>Обхват груди, в см: <span>86-90</span></li>
+                                                                        <li>Обхват талии, в см: <span>66-70</span></li>
+                                                                        <li>Обхват бедер, в см: <span>94-98</span></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="size-hint">
+                                                        Размер на этикетке: 52
+                                                        <a href="javascript:void(0);" class="btn-why" >
+                                                            <span>Почему?</span>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="sizechart">
+                                                        <a href="javascript:void(0);" class="sizechart-btn" data-toggle="modal" data-target="#modalSizeChart" >
+                                                            <span>Таблица размеров</span>
+                                                        </a>
+
+                                                        <div class="sizechart-hint">
+                                                            Соответствие с популярными размерными системами
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="product-preview-bar">
+                                                <div class="product-bag">
+                                                    <div class="product-order">
+                                                        <div class="product-price">
+                                                            <span class="price-old">2 700 <i class="icon-rouble" ></i></span>
+                                                            <span class="price-current">1 450 <i class="icon-rouble" ></i></span>
+                                                        </div>
+
+                                                        <a href="javascript:void(0);" class="product-bag-add" data-toggle="modal" data-target="#modalOrder" >
+                                                            <i class="icon-bag"></i>
+                                                            В корзину
+                                                        </a>
+                                                    </div>
+
+                                                    <ul class="product-actions">
+                                                        <li class="product-action-item" >
+                                                            <a href="javascript:void(0);" class="product-action" data-toggle="modal" data-target="#modalOneTouch" >
+                                                                <i class="icon-forward" ></i>
+                                                                <span>Купить сейчас</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="product-action-item">
+                                                            <a href="javascript:void(0);" class="product-action">
+                                                                <i class="icon-heart"></i>
+                                                                <span>Отложить</span>
+                                                            </a>
+
+                                                            <!-- todo: если товар добавлен в избранное - отображаем кнопку убрать -->
+                                                            <!-- <a href="javascript:void(0);" class="product-action">
+                                                                <i class="icon-heart-fill"></i>
+                                                                <span>Убрать</span>
+                                                            </a> -->
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="advantages-grid row align-items-md-center">
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-delivery"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">Доставка от 2х дней</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-fitting-room"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">Примерка перед покупкой</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-location"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">50 примерочных и пунктов самовывоза</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="advantage-item col-6 col-sm-3 col-lg-12">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-media">
+                                                                <i class="icon-calendar"></i>
+                                                            </div>
+                                                            <div class="advantage-text">
+                                                                <a href="#link">Отправка заказа день-в-день</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev modal-button-prev"></div>
+                            <div class="swiper-button-next modal-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <script src="vendor/jquery-3.3.1.min.js"></script>
+        <script src="vendor/bootstrap/js/dist/util.js" ></script>
+        <script src="vendor/bootstrap/js/dist/modal.js" ></script>
+        <script src="vendor/bootstrap/js/dist/collapse.js" ></script>
+
+        <script src="vendor/nanoScrollerJS/jquery.nanoscroller.min.js" ></script>
+        <script src="vendor/nanoScrollerJS/overthrow.min.js" ></script>
+        <script src="vendor/select2/select2.min.js" ></script>
+        <script src="vendor/swiper/swiper.min.js" ></script>
+        <script src="vendor/jquery-ui/jquery-ui.min.js" ></script>
+
+        <script src="js/initial.js" ></script>
+        <script src="js/main.js" ></script>
+    </body>
+
+</html>

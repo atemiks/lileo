@@ -1,0 +1,16 @@
+.header-contact {
+	font-size: 18px;
+	color: #000000;
+}
+
+.header-contact a {
+	display: flex;
+	align-items: center;
+	padding: 2px 0;
+	color: inherit;
+	line-height: 1;
+}
+
+.header-contact i {
+	display: none;
+}

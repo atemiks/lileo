@@ -1,0 +1,6 @@
+@media (min-width: 1200px) {
+	.action-checkbox input[type="checkbox"] + label {
+		padding: 12px 6px;
+		font-size: 14px;
+	}
+}

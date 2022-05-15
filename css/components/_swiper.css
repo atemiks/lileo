@@ -1,0 +1,91 @@
+.swiper-cover {
+	position: relative;
+}
+
+.swiper-cover .swiper-container {
+	position: static;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+	outline: none !important;
+	top: 0;
+	height: 100%;
+	width: 30px;
+	margin: 0;
+	background-image: none;
+}
+
+.swiper-button-prev:before,
+.swiper-button-next:before,
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.swiper-button-prev:before,
+.swiper-button-next:before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: #822cbd;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	display: block;
+	width: 100%;
+	font-family: 'icomoon';
+	color: #fff;
+	line-height: 1;
+	text-align: center;
+}
+
+.swiper-button-prev:after {
+	content: '\e907';
+}
+
+.swiper-button-next:after {
+	content: '\e908';
+}
+
+
+.swiper-pagination-bullet {
+	opacity: 1;
+	width: 33px;
+	height: 5px;
+	border-radius: 0;
+	background-color: #c5cbcf;
+	transition: background-color 300ms ease;
+}
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet-active {
+	background-color: #822cbd;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 3px;
+}
+
+.swiper-pagination-bullets-dynamic {
+	display: -ms-flex;
+	display: flex;
+	margin-left: -3px;
+	margin-right: -3px;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+	left: 0 !important;
+	flex: 1 1 auto;
+	width: auto;
+    transform: scale(1);
+}
+
+/*.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+    transform: scale(1);
+}*/

@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+	.news-card .news-title {
+		margin: 10px 0 5px;
+	}
+}
+
+@media (min-width: 992px) {
+	.news-card .news-title {
+		margin: 20px 0 5px;
+		font-size: 16px;
+		line-height: 1.25;
+	}
+}
+
+@media (min-width: 1200px) {
+	.news-card .news-title {
+		margin: 10px 0 5px;
+		font-size: 17px;
+		line-height: 1.47;
+	}
+
+	.news-card .news-description {
+		font-size: 14px;
+		line-height: 1.42;
+	}
+}

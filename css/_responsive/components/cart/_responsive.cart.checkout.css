@@ -1,0 +1,34 @@
+@media (min-width: 992px) {
+	.checkout {
+		margin: 0 -15px;
+		padding: 25px 15px 60px;
+		border-top: none;
+	}
+
+	.checkout-group {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+
+	.checkout .checkout-title  {
+		margin: 0 0 15px;
+		font-size: 28px;
+	}
+
+	.checkout .checkout-headline {
+		font-size: 17px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.checkout .row  {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.checkout [class*="col-"] {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

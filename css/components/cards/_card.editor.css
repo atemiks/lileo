@@ -1,0 +1,60 @@
+.editor-card {
+	margin: 30px 0 5px;
+	background-color: #f7e5f6;
+	font-size: 13px;
+	font-weight: 400;
+	color: #413340;
+	line-height: 1.55;
+}
+
+.editor-card p {
+	margin-bottom: 1.5rem;
+}
+
+.editor-card p:last-child {
+	margin-bottom: 0;
+}
+
+.editor-card .header {
+	position: relative;
+	padding: 17px 0;
+	background: #f7e5f6 url('../../../images/page-product/section-editor-choose/section-editor-choose-bg.jpg') no-repeat center left;
+	background-size: cover;
+}
+
+.editor-card .header .row {
+	min-height: 32px;
+}
+
+
+.editor-card .body {
+	padding: 15px 2px 10px 15px;
+}
+
+.editor-card .media {
+	position: absolute;
+	left: 20px;
+	bottom: -20px;
+	width: 100%;
+}
+
+.editor-card .media img {
+	max-height: 120px;
+}
+
+.editor-card .title {
+	margin: 0 12%;
+	font-family: 'Jikharev';
+	font-size: 25px;
+	font-weight: 400;
+	color: #c10000;
+	line-height: 1;
+}
+
+.editor-card .subtitle {
+	display: none;
+}
+
+.editor-card .rating {
+	margin-bottom: 5px;
+}

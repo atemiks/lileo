@@ -1,0 +1,17 @@
+.copyright {
+	margin-left: -20px;
+	font-size: 13px;
+	line-height: 1.53;
+}
+
+.copyright p {
+	margin: 0;
+}
+
+.copyright p + p {
+	margin: 20px 0;
+}
+
+.copyright .text-secondary {
+	font-size: 12px;
+}

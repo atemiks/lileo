@@ -1,0 +1,21 @@
+@media (min-width: 992px) {
+	.product .advantages-grid {
+		margin-bottom: 15px;
+	}
+
+	.product .advantages-grid .advantage-item {
+	    margin-top: 6px;
+    	margin-bottom: 6px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.product .advantages-grid  {
+		margin-bottom: 30px;
+	}
+	
+	.product .advantages-grid .advantage-item {
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+}

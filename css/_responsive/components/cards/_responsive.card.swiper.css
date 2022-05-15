@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+	.swiper-card .swiper-title {
+		margin: 15px 0 0;
+		font-size: 15px;
+		line-height: 1.33;
+	}
+}
+
+@media (min-width: 1200px) {
+	.swiper-card .swiper-title {
+		margin: 10px 0 5px;
+		font-size: 17px;
+		line-height: 1.47;
+	}
+}

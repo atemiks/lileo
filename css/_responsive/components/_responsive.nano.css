@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+	.nano {
+		max-height: 200px;
+	}
+}
+
+@media (min-width: 992px) {
+	.nano.lg {
+		max-height: 276px;
+	}
+
+	.nano.sm {
+		max-height: 138px;
+	}
+}

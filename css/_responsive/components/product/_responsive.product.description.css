@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+	.product-description-block .title {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.product-description-block .title {
+		font-size: 28px;
+	}
+
+	.product-description-block .product-description {
+		margin-bottom: 10px;
+		font-size: 15px;
+		line-height: 1.7;
+	}
+}

@@ -1,0 +1,120 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.inner {
+	flex: 1 0 auto;
+}
+.footer-box {
+	flex: 0 0 auto;
+}
+
+
+.container {
+	max-width: 100%;
+}
+
+
+.display-header .display-title {
+	margin: 0 0 3px;
+	font-family: 'Jikharev';
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 1.25;
+}
+
+
+.section-header {
+	margin-bottom: 10px;
+}
+
+.section-header .section-title {
+	margin: 0;
+	padding: 0;
+	font-family: 'Jikharev';
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 1;
+	color: #2c2c2c;
+}
+
+.section-header .section-title .badge {
+    display: -ms-inline-flex;
+    display: inline-flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-left: 7px;
+    padding-right: 7px;
+	border-radius: 0;
+	background-color: #f7e4f7;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 13px;
+    line-height: 1;
+}
+
+
+.bg0 {
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 98;
+	background-color: transparent;
+}
+
+.open .bg0 {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.icon-rouble { 
+	position: relative;
+	top: 0.05em;
+    margin-left: -0.25em;
+} 
+
+.text-secondary {
+	color: #ababab;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-nowrap {
+	white-space: nowrap;
+}

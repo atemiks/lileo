@@ -1,0 +1,21 @@
+.price {
+
+}
+
+.price .price-old,
+.price .price-current {
+    display: block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.price .price-old {
+    font-size: 15px;
+    color: #e65ae6;
+    text-decoration: line-through;
+}
+
+.price .price-current {
+    font-size: 20px;
+    color: #000000;
+}

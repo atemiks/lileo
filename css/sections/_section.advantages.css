@@ -1,0 +1,15 @@
+.section-advantages {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.advantages-grid {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.advantages-grid .advantage-item {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

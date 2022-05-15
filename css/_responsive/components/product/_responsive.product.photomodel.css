@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+	.product-photomodel.lg {
+		width: 140px;
+		height: 140px;
+		font-size: 13px;
+		line-height: 1.3;
+	}
+}

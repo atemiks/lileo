@@ -1,0 +1,51 @@
+.popular-block {
+	margin: 0 0 20px;
+}
+
+.popular-block .popular-title {
+	margin: 0 0 5px;
+	font-family: 'Jikharev';
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.popular-links {
+	cursor: default;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 13px;
+	letter-spacing: -.5px;
+}
+
+.popular-links > li {
+	position: relative;
+	padding: 0 0 0 20px;
+}
+
+.popular-links > li:before {
+	content: '';
+	position: absolute;
+	top: 13px;
+	left: 0;
+	width: 10px;
+	height: 2px;
+	background-color: #d2d2d2;
+}
+
+.popular-links a {
+	display: inline-block;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-decoration: none;
+	line-height: inherit;
+}
+
+.popular-links a:hover {
+	text-decoration: underline;
+}
+
+.popular-links li.active a {
+	text-decoration: underline;
+}

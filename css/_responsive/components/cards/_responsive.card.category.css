@@ -1,0 +1,11 @@
+@media (min-width: 480px) {
+	.category-card.size-xsm-w2 {
+		width: calc(200% + 30px);
+	}
+}
+
+@media (min-width: 992px) {
+	.category-card.size-lg-w2 {
+		width: calc(200% + 30px);
+	}
+}

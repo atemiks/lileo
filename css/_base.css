@@ -1,0 +1,108 @@
+html,
+body {
+	height: 100%;
+	font-family: 'ProximaNova', sans-serif;
+	font-size: 14px;
+	color: #2f2f2f;
+}
+
+
+section {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	margin: 0;
+	font-family: 'Jikharev';
+	font-weight: 400;
+	color: #2c2c2c;
+}
+
+h1,
+.h1 {
+	margin: 0.375em 0;
+	font-size: 26px;
+}
+
+h2,
+.h2,
+h3,
+.h3 {
+	margin: 0.652em 0;
+}
+
+h2,
+.h2 {
+	margin: 0.179em 0;
+	font-size: 23px;
+}
+
+h3,
+.h3 {
+	margin: 0.192em 0;
+	font-size: 22px;
+}
+
+h4,
+.h4 {
+	margin: 0.292em 0;
+	font-size: 20px;
+}
+
+h5,
+.h5 {
+	margin: 0.227em 0;
+	font-size: 18px;
+}
+
+h6,
+.h6 {
+	margin: 0.250em 0;
+	font-size: 16px;
+}
+
+
+p:last-of-type {
+	margin-bottom: 0;
+}
+
+a {
+	font-size: inherit;
+	font-weight: 400;
+	color: #1b59c1;
+	line-height: 1.666;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #1b59c1;
+	text-decoration: none;
+}
+
+blockquote {
+	display: block;
+	border-left: 5px solid #822cbd;
+	margin: 1.111em 0;
+	padding: 1.111em 3.333em 1.944em 1.667em;
+	background-color: #f7e5f6;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: #413340;
+}
+
+img {
+	max-width: 100%;
+}

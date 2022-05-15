@@ -1,0 +1,81 @@
+@media (min-width: 480px) {
+	.hero-card .row {
+		min-height: 220px;
+	} 
+	
+	.hero-card .hero-title {
+		font-size: 30px;
+	}
+
+	.hero-card .hero-text {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	.hero-card .row {
+		min-height: 300px;
+	}
+
+	.hero-card .hero-content-col {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+
+	.hero-card .hero-title {
+		font-size: 40px;
+	}
+
+	.hero-card .hero-text {
+		margin: 0 0 10px;
+		font-size: 15px;
+		line-height: 1.66;
+	}
+}
+
+@media (min-width: 992px) {
+	.hero-card .row {
+		min-height: 350px;
+	}
+
+	.hero-card .hero-title {
+		margin: 0 0 15px;
+		font-size: 45px;
+		line-height: 0.9;
+	}
+
+	.hero-card .hero-text {
+		margin: 0 0 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.hero-card .row {
+		min-height: 400px;
+	}
+
+	.hero-card .hero-title,
+	.hero-card .hero-text {
+		max-width: 82%;
+	}
+
+	.hero-card .hero-title {
+		font-size: 50px;
+	}
+
+	.hero-card .hero-text {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+}
+
+@media (min-width: 1400px) {
+	.hero-card .row {
+		min-height: 635px;
+	}
+
+	.hero-card .hero-title,
+	.hero-card .hero-text {
+		max-width: none;
+	}
+}

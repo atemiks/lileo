@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+	.checkout-choose {
+		padding: 17px 15px 20px 60px;
+		font-size: 14px;
+	}
+
+	.checkout-choose:before {
+		top: 22px;
+		left: 17px;
+	}
+
+
+	.checkout-choose-title  {
+		font-size: 17px;
+	}
+}

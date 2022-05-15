@@ -1,0 +1,26 @@
+.label {
+	display: inline-block;
+	padding: 4px;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.label.lg {
+	padding: 6px 8px;
+	font-size: 13px;
+}
+
+.label-danger {
+	background-color: #e65d5d;
+	color: #fff;
+}
+
+.label-purple {
+	background-color: #e65de6;
+	color: #fff;
+}
+
+.label-lead {
+	text-transform: uppercase;
+}

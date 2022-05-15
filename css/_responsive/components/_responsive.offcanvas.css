@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+	.offcanvas-toggler {
+		padding: 11px 15px 11px 8px;
+	}
+	
+	.offcanvas-toggler .text {
+		display: block;
+	}
+}

@@ -1,0 +1,131 @@
+.filter .filter-block {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+
+.filter .filter-title {
+	position: relative;
+	display: block;
+	padding: 0 25px 0 0;
+	font-family: 'Jikharev';
+	font-size: 22px;
+	font-weight: 400;
+	color: #2c2c2c;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.filter .filter-title:after {
+	content: '\f110';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	transform-origin: center;
+	transition: transform 300ms ease;
+	font-family: 'icomoon';
+	font-size: 16px;
+	color: #c0c3c5;
+	line-height: 1;
+}
+
+.filter .filter-block.in .filter-title:after {
+	transform: rotate(-180deg) translateY(50%);
+}
+
+.filter .filter-title:hover {
+	color: #2c2c2c;
+	text-decoration: none;
+}
+
+
+.filter .badge {
+	min-width: auto;
+	height: auto;
+	padding: 0;
+	margin: 2px 0 0 5px;
+	font-size: 10px;
+	color: #a8a8a8;
+	line-height: initial;
+}
+
+
+.filter .filter-variants {
+	cursor: default;
+	display: -ms-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.filter .filter-variant {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+
+.filter .filter-variant input + label {
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+
+.filter .filter-variant input + label:before {
+	top: 3px;
+}
+
+.filter .filter-variant input + label:after {
+	top: 6px;
+}
+
+
+.filter .filter-variant .custom-checkbox.media input[type="checkbox"] + label:after {
+	top: 2px;
+}
+
+
+.filter .filter-price label {
+	margin: 0 5px 0 0;
+	font-size: 13px;
+}
+
+.filter .filter-price input:not([type='radio']):not([type='checkbox']):not([type='search']) {
+	width: 107px;
+	padding-right: 23px;
+	font-size: 13px;
+}
+
+
+.filter .filter-price .field-price {
+	position: relative;
+}
+
+.filter .filter-price .field-price:after {
+	content: '\f2e2';
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 30px;
+	font-family: 'icomoon';
+	font-size: 13px;
+	font-weight: 400;
+	color: #979797;
+}
+
+
+.filter .filter-footer {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.filter button[type="submit"] {
+	margin-right: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+}

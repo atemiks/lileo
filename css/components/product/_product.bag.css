@@ -1,0 +1,86 @@
+.product .product-bag {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.product-bag .product-order {
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	border: 10px solid #f7e5f6;
+}
+
+.product-bag .product-price {
+	flex: 1 1 auto;
+	padding: 7px 10px;
+	line-height: 1;
+}
+
+.product-bag .product-price .price-current {
+	font-size: 22px;
+	white-space: nowrap;
+}
+
+
+.product-bag .product-actions {
+	margin: 5px -12px;
+	padding: 0;
+	list-style: none;
+}
+
+.product-bag .product-action-item {
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+.product-bag .product-action {
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 14px;
+	line-height: 1.07;
+	text-decoration: none;
+}
+
+.product-bag .product-action i {
+	display: inline-block;
+	margin-right: 8px;
+	font-size: 20px;
+}
+
+.product-bag .product-action span {
+	text-decoration: underline;
+}
+.product-bag .product-action:hover span {
+	text-decoration: none;
+}
+
+
+.product-bag-add {
+	flex: 0 0 auto;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 19px 12px 17px;
+	background: #7c2ab4 url(../../../images/add-to-bag-bg.jpg) no-repeat center center ;
+	background-size: cover;
+	font-family: 'Jikharev';
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	line-height: 1;
+}
+
+.product-bag-add i {
+	display: none;
+}
+
+.product-bag-add:hover {
+	color: #fff;
+	text-decoration: none;
+}

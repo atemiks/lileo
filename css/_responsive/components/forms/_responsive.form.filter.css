@@ -1,0 +1,70 @@
+@media (min-width: 480px) {
+	.filter .filter-variant {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+
+	.filter .filter-price {
+		padding-right: 35px;
+	}
+}
+
+@media (min-width: 768px) {
+	.filter .filter-variant {
+		flex: 0 0 33.3333%;
+		max-width: 33.3333%;
+	}
+}
+
+@media (min-width: 992px) {
+	.filter .filter-block {
+		margin-bottom: 25px;
+		border-bottom: none;
+	}
+
+	.filter .filter-title {
+		margin: 0 0 5px;
+	}
+
+
+	.filter .filter-variants {
+		display: block;
+	}
+
+	.filter .filter-variant {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+
+	.filter .filter-price {
+		padding-right: 0;
+	}
+
+	.filter .filter-price input:not([type='radio']):not([type='checkbox']):not([type='search']) {
+		width: 82px;
+	}
+
+
+	.filter .filter-footer {
+		margin-top: -15px;
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 1400px) {
+	.filter .filter-block {
+		margin-bottom: 40px;
+	}
+
+
+	.filter .filter-title {
+		margin: 0 0 3px;
+		font-size: 24px;
+	}
+
+	.filter .filter-price input:not([type='radio']):not([type='checkbox']):not([type='search']) {
+		width: 92px;
+	}
+}

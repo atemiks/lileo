@@ -1,0 +1,23 @@
+@media (min-width: 480px) {
+	.product .colors-block {
+		margin: 18px 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.product .colors-block {
+		margin: 10px 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.product .colors-block {
+		margin: 20px 0;
+	}
+}
+
+@media (min-width: 1200px) { 
+	.product .colors-block {
+		margin: 25px 0;
+	}
+}

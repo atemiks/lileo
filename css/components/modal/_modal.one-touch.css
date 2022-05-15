@@ -1,0 +1,22 @@
+#modalOneTouch .modal-dialog {
+	max-width: 975px;
+	margin: 60px auto;
+}
+
+#modalOneTouch .order-list {
+	margin-bottom: 15px;
+}
+
+
+#modalOneTouch .cart-total {
+	position: static;
+	margin: 15px 0;
+	padding: 0;
+	border: none;
+	text-align: right;
+}
+
+#modalOneTouch .cart-total .cart-total-value.lead {
+	margin-left: 0;
+	font-size: 22px;
+}

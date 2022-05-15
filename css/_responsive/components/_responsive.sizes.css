@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+	.sizechart-grid {
+		font-size: 13px;
+	}
+
+	.sizechart-grid .col:first-child {
+		padding-left: 18px;
+	}
+	.sizechart-grid .col:last-child {
+		padding-right: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.size-block .title {
+		font-size: 15px;
+	}
+
+	.sizechart-hint {
+		margin: 5px 0;
+	}
+
+
+	.sizechart-grid {
+		font-size: 14px;
+	}
+}

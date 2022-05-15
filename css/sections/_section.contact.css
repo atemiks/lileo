@@ -1,0 +1,11 @@
+#map {
+	overflow: hidden;
+	height: 200px;
+}
+
+/* todo: удалить код ниже после добавления карты вместо картинки */
+#map img {
+	min-width: 100%;
+	max-width: none;
+	height: 100%;
+}

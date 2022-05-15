@@ -1,0 +1,31 @@
+.collections-block .title {
+	margin: 0 0 20px;
+	font-family: 'Jikharev';
+	font-size: 23px;
+	color: #2c2c2c;
+	line-height: 1.07;
+}
+
+.swiper-collections {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.swiper-collections .swiper-slide {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.swiper-collections .swiper-button-prev,
+.swiper-collections .swiper-button-next {
+	height: 30px;
+	padding-top: calc(66.5% - 22px);
+}
+
+.swiper-collections .swiper-button-prev {
+	left: -15px;
+}
+
+.swiper-collections .swiper-button-next {
+	right: -15px;
+}

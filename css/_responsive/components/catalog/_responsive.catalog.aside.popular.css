@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+	.popular-block {
+		margin: 0 0 35px;
+	}
+	
+	.popular-block .popular-title {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.popular-block {
+		margin: 0 0 45px;
+	}
+
+	.popular-block .popular-title  {
+		margin: 0;
+		font-size: 24px;
+	}
+}

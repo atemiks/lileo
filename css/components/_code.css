@@ -1,0 +1,17 @@
+.code-block {
+	font-size: 14px;
+	font-weight: 400;
+	color: #343434;
+	line-height: 1;
+}
+
+.code-block .code {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 6px 8px;
+	background-color: #e6eaed;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+	line-height: 1;
+}

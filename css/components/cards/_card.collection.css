@@ -1,0 +1,38 @@
+.collection-card {
+	display: block;
+	color: #000000;
+	text-decoration: none;
+}
+
+.collection-card:hover {
+	text-decoration: none;
+}
+
+.collection-card .collection-thumbnail {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 133%;
+}
+
+.collection-card .collection-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.collection-card .collection-title {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.collection-card .collection-price .price-old {
+	font-size: 13px;
+}
+
+.collection-card .collection-price .price-current {
+	font-size: 18px;
+}

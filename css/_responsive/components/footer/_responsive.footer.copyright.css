@@ -1,0 +1,27 @@
+@media (min-width: 480px) {
+	.copyright {
+		margin: 12px 0;
+		font-size: 14px;
+		/*line-height: 1.6;*/
+		line-height: 1.42;
+	}
+}
+
+@media (min-width: 768px) {
+	.copyright {
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+}
+
+@media (min-width: 992px) {
+	.copyright {
+		max-width: 155px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.copyright {
+		max-width: 200px;
+	}
+}

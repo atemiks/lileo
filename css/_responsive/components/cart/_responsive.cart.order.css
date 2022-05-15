@@ -1,0 +1,76 @@
+@media (min-width: 768px) {
+	.order-list .order-card .order-content-left {
+		flex: 0 0 60%;
+	    max-width: 60%;
+	}
+
+	.order-list .order-card .order-content-right {
+		flex: 0 0 40%;
+	    max-width: 40%;
+	}
+
+
+	.order-list .order-card .color-col,
+	.order-list .order-card .size-col,
+	.order-list .order-card .quantity-col {
+		flex: 0 1 auto;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.order-list {
+		margin-top: 0;
+	}
+
+	.order-list .order-card .order-content-left {
+	    flex-basis: 0;
+	    flex-grow: 1;
+	    -ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	    max-width: 100%;
+	}
+
+	.order-list .order-card .order-content-right {
+		flex: 0 0 192px;
+		max-width: 192px;
+	}
+
+
+	.order-list .order-card .summary-col {
+		flex: 1 1 auto;
+		max-width: 100%;
+	}
+
+	.order-list .order-card .color-col {
+		flex: 0 0 125px;
+		max-width: 125px;
+	}
+
+	.order-list .order-card .size-col {
+		flex: 0 0 70px;
+		max-width: 70px;
+	}
+
+	.order-list .order-card .quantity-col {
+		flex: 0 0 100px;
+		max-width: 100px;
+	}
+
+	.order-list .order-card .price-col {
+		flex: 0 0 140px;
+		max-width: 140px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.order-list .order-card .color-col {
+		flex: 0 0 140px;
+		max-width: 140px;
+	}
+
+	.order-list .order-card .size-col {
+		flex: 0 0 100px;
+		max-width: 100px;
+	}
+}

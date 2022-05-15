@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+	.share {
+		text-align: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.share-item  {
+		display: block;
+	}
+}

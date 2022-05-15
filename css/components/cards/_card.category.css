@@ -1,0 +1,25 @@
+.category-card {
+	display: block;
+	padding-bottom: 100%;
+	text-decoration: none;
+	background-color: #979797;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.category-card.size-h2 {
+	padding-bottom: calc(200% + 30px);
+}
+
+.category-card.size-w2 {
+	width: calc(200% + 30px);
+}
+
+.category-card.mt-1 {
+	margin-top: calc(100% + 30px) !important;
+}
+
+.category-card.mt-2 {
+	margin-top: calc(200% + 60px) !important;
+}

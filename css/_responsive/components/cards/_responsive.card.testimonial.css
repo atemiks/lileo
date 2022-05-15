@@ -1,0 +1,36 @@
+@media (min-width: 480px) {
+	.testimonial-card  {
+		font-size: 14px;
+		line-height: 1.6;
+	}
+
+	.testimonial-card .testimonial-name {
+		margin: 0 15px 10px 0;
+	}
+
+	.testimonial-card .testimonial-date {
+		margin: 0 0 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	.testimonial-card .testimonial-name {
+		font-size: 15px;
+	}
+	
+	.testimonial-card .testimonial-description {
+		max-width: 310px;
+	}
+}
+
+@media (min-width: 992px) {
+	.testimonial-card .testimonial-description {
+		margin: 8px 0;
+	}
+}
+
+@media (min-width: 1400px) {
+	.testimonial-card .testimonial-description {
+		max-width: none;
+	}
+}

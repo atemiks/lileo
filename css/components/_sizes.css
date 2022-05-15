@@ -1,0 +1,103 @@
+.sizes-block .title {
+	margin: 6px 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.size-hint {
+	margin: 0;
+	font-size: 13px;
+	font-style: italic;
+	color: #545454;
+}
+
+
+.sizechart-hint {
+	margin: 0;
+	font-size: 13px;
+	font-style: italic;
+	color: #818181;
+	line-height: 1.25;
+}
+
+.sizechart-btn {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.sizechart-btn:before {
+	content: '\e910';
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	font-family: 'icomoon';
+	font-size: 160%;
+	line-height: 1;
+}
+
+.sizechart-btn span {
+	display: inline-block;
+	background: url('../../images/icons/ruler.svg') repeat-x bottom left;
+	background-size: 128px 4px;
+}
+
+
+.sizechart-grid {
+	position: relative;
+	font-size: 12px;
+}
+
+.sizechart-grid .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.sizechart-grid .col {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.sizechart-grid .col:first-child {
+	padding-left: 10px;
+}
+.sizechart-grid .col:last-child {
+	padding-right: 10px;
+}
+
+
+.sizechart-grid .sizechart-head {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background: #9f20df linear-gradient(to right, #9d20e2 0%,#e53776 100%);
+	font-weight: 600;
+	color: #fff;
+}
+
+.sizechart-grid .sizechart-head .col {
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 60px;
+}
+
+.sizechart-grid .sizechart-body .row {
+	border-bottom: 1px solid #d9dcde;
+}
+
+.sizechart-grid .sizechart-body .col {
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+
+.sizes-list {
+	cursor: default;
+}
+
+.sizes-list .size-item {
+	display: inline-block;
+	margin-bottom: 5px;
+}

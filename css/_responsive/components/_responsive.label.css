@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+	.label {
+		padding: 4px 7px;
+	}
+}
+
+@media (min-width: 992px) {
+	.label.lg {
+		padding: 7px 10px;
+		font-size: 15px;
+	}
+}

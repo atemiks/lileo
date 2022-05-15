@@ -1,0 +1,10 @@
+@media (min-width: 1200px) {
+	.product .sizes-block {
+		margin: 25px 0 35px;
+	}
+
+
+	.product .sizechart {
+		margin: 20px 0;
+	}
+}

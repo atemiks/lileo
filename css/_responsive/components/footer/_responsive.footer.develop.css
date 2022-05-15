@@ -1,0 +1,22 @@
+@media (min-width: 480px) {
+	.develop {
+		margin: -5px 0 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.develop {
+		max-width: 170px;
+	}
+
+	.develop .develop-btn img {
+		margin-right: 15px;
+	}
+}
+
+@media (min-width: 992px) {
+	.develop {
+		float: none;
+		margin: 20px 0 20px auto;
+	}
+}

@@ -1,0 +1,140 @@
+table {
+	position: relative;
+	z-index: 1;
+	display: inline-table;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 13px;
+	color: #343434;
+	line-height: 1.28;
+}
+
+thead {
+	color: #fff;
+}
+
+thead:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: #9f20df linear-gradient(to right, #9d20e2 0%,#e53776 100%);
+}
+
+th,
+td {
+	min-width: 130px;
+}
+
+th {
+	height: 50px;
+	padding: 8px 10px;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+td {
+	padding: 12px 10px;
+	border-bottom: 1px solid #d9dcde;
+}
+
+table i {
+	font-size: 27px;
+	color: #a638e8;
+}
+
+
+.table-responsive {
+	display: block;
+	overflow-y: hidden;
+    overflow-x: auto;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive table {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+.table-shops {
+	margin-top: 0;
+	margin-bottom: -15px;
+}
+
+.table-shops thead {
+	display: none;
+}
+
+.table-shops tr {
+	display: -ms-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #d9dcde;
+}
+
+.table-shops th:first-child {
+	padding-left: 36px;
+}
+
+.table-shops td {
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	border-bottom: 1px solid #f0f2f4;
+}
+
+.table-shops td:empty {
+	display: none;
+}
+
+.table-shops td:first-child {
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding-left: 0;
+}
+
+.table-shops td:nth-last-child(1),
+.table-shops td:nth-last-child(2) {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.table-shops a {
+	display: block;
+	line-height: 1.5;
+}
+
+.table-shops [class*="icon"] {
+	height: 28px;
+	line-height: 28px;
+}
+
+.table-shops .icon-card {
+	font-size: 18px;
+}
+
+.table-shops .title {
+	margin: 0 5px 0 0;
+	font-weight: 600;
+}
+
+.table-shops .address-card {
+	width: 100%;
+}

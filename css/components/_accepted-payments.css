@@ -1,0 +1,15 @@
+.accepted-payments {
+	cursor: default;
+	margin: 0 0 -5px;
+	padding: 0;
+	list-style: none;
+}
+
+.accepted-payments li {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.accepted-payments img {
+	height: 30px;
+}

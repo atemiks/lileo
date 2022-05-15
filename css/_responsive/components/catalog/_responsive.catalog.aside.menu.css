@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+	.menu-toggler .badge {
+		margin-left: 10px;
+	}
+}
+
+@media (min-width: 992px) {
+	.catalog-menu {
+		position: static;
+		display: block !important;
+		padding: 0;
+		box-shadow: none;
+	}
+
+	.menu-list {
+		margin: 0 0 35px;
+		padding: 10px 20px;
+		border: 10px solid #f7e5f6;
+	}
+
+	.menu-list .menu-link {
+		padding-top: 4px;
+		padding-bottom: 3px;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.menu-list {
+		margin: 0 0 30px;
+	}
+}

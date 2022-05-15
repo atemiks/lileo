@@ -1,0 +1,18 @@
+.section-viewed {
+	padding-top: 20px;
+	padding-bottom: 25px;
+	border-top: 1px solid #d9dcde;
+}
+
+.section-testimonials + .section-viewed {
+	margin-top: -30px;
+}
+
+.section-viewed .section-header br {
+	display: none;
+}
+
+.section-viewed .section-header .section-title {
+	font-size: 25px;
+	line-height: 1.15;
+}

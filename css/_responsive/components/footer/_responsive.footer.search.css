@@ -1,0 +1,25 @@
+@media (max-width: 479px) {
+	.footer-search .search-input {
+	    padding: 0 25px 0 12px;
+	}
+}
+
+@media (min-width: 480px) {
+	.footer-search {
+		width: 210px;
+		margin: 20px 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.footer-search {
+		float: none;
+		margin: 5px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.footer-search {
+		width: 260px;
+	}
+}

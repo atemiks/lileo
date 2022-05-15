@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+	.product .specifications-block {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.product .specifications-block {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+}

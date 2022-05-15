@@ -1,0 +1,60 @@
+.checkout {
+	margin: 25px -15px;
+	padding: 25px 15px 35px;
+	border-top: 1px solid #d9dcde;
+}
+
+.checkout .row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.checkout [class*="col-"] {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+.checkout-group {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.checkout-group .checkout-choose-item {
+	display: -ms-flex;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.checkout .checkout-title {
+	margin: 0 0 10px;
+	font-family: 'Jikharev';
+	font-size: 24px;
+	color: #2c2c2c;
+}
+
+.checkout .checkout-headline {
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin: 10px 0;
+	min-height: 35px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000000;
+	line-height: 30px;
+}
+
+.checkout .checkout-headline i {
+	flex: 0 0 48px;
+	max-width: 48px;
+	font-size: 30px;
+}
+
+.checkout .checkout-headline .icon-delivery-address {
+	font-size: 45px;
+}
+
+.checkout .checkout-headline .icon-payment {
+	font-size: 35px;
+}

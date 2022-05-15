@@ -1,0 +1,12 @@
+#modalOrder .modal-dialog {
+	max-width: 468px;
+}
+
+#modalOrder .modal-footer {
+	border-top: none;
+}
+
+
+#modalOrder .order-card .order-content {
+	display: block;
+}

@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+	.breadcrumb {
+		margin: 12px 0 15px;
+	}
+
+	.breadcrumb-item:before {
+		margin-left: 5px;
+		margin-right: 7px;
+	}
+}
+
+@media (min-width: 992px) {
+	.breadcrumb {
+		margin: 15px 0;
+	}
+}

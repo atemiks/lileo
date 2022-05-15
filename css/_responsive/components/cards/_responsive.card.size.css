@@ -1,0 +1,10 @@
+@media (min-width: 1025px) {
+	.size-card .tooltip {
+		display: block;
+	}
+	
+	.size-card:hover .tooltip {
+		opacity: 1;
+		visibility: visible;
+	}
+}

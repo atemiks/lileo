@@ -1,0 +1,61 @@
+.swiper-card {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.swiper-card:hover {
+	text-decoration: none;
+}
+
+
+.swiper-card .btn-close {
+	position: absolute;
+	z-index: 9;
+    top: 5px;
+    right: 5px;
+}
+
+
+.swiper-card .swiper-thumbnail {
+	overflow: hidden;
+	padding-bottom: 133%;	
+}
+
+.swiper-card .swiper-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+} 
+
+
+.swiper-card .swiper-title {
+	margin: 10px 0 7px;
+	font-size: 14px;
+	line-height: 1.42;
+	color: #000000;
+}
+
+
+.swiper-card .price-old,
+.swiper-card .price-current {
+	display: block;
+	line-height: 1;
+	text-decoration: none;
+}
+
+
+.swiper-card .price-old {
+	margin: 0 0 3px;
+	font-size: 15px;
+	color: #e65ae6;
+	text-decoration: line-through;
+}
+
+.swiper-card .price-current {
+	font-size: 20px;
+	color: #000000;
+}

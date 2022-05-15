@@ -1,0 +1,53 @@
+.header-box {
+	position: relative;
+	z-index: 100;
+	background-color: #fff;
+}
+
+.header-box a {
+	text-decoration: none;
+}
+
+.header-main {
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 52px;
+	padding-left: 8px;
+	padding-right: 8px;
+	background-color: #fff;
+}
+
+.header-main [class*="col-"] {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+.header-fixed.header-box {
+	padding-top: 52px;
+}
+
+.header-fixed .header-main {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	animation: animateFixedHeader 300ms ease-in-out;
+
+}
+
+
+.subheader {
+	background: #3a044f url('../../../images/header/subheader-bg.jpg') no-repeat center center;
+    background-size: auto 100%;
+}
+
+
+@keyframes animateFixedHeader {
+	from {transform: translateY(-100%);}
+	to {transform: translateY(0%);}
+}

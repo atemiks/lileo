@@ -1,0 +1,40 @@
+@media (min-width: 480px) and (max-width: 767px) {
+	.advantage-card {
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.advantage-card .advantage-media {
+		margin: 0 0 10px;
+	}
+
+	.advantage-card .advantage-text {
+		text-align: center;
+	}
+}
+
+@media (min-width: 480px) {
+	.advantage-card .advantage-media i {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 768px) {
+	.advantage-card {
+		font-size: 13px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.advantage-card {
+		line-height: 1.38;
+	}
+}
+
+@media (min-width: 1400px) {
+	.advantage-card {
+		line-height: 1.53;
+	}
+}

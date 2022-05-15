@@ -1,0 +1,19 @@
+.badge {
+	display: -ms-inline-flex;
+	display: inline-flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	min-width: 20px;
+	height: 20px;
+	padding: 1px 3px;
+	border-radius: 50%;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.badge-light {
+	background-color: #fff;
+	color: #000000;
+}

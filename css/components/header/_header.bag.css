@@ -1,0 +1,76 @@
+.header-bag {
+	position: relative;
+	z-index: 9;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 95px;
+	height: 100px;
+	margin-top: -20px;
+	margin-bottom: -70px;
+	background: url('../../../images/header/bag-bg.svg') no-repeat 0 0 ;
+	background-size: contain;
+	font-size: 0;
+	color: #fff;
+	text-decoration: none;
+	line-height: 1;
+}
+
+.header-bag b {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.header-bag .icon-bag {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	font-size: 28px;
+}
+
+.header-bag .icon-rouble {
+	font-weight: 700;
+}
+
+.header-bag .badge {
+	position: absolute;
+    top: 17px;
+    right: 23px;
+}
+
+.header-bag:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.header-fixed .header-bag,
+.header-fixed .header-bag:hover {
+	color: #4c4c4c;
+}
+
+.header-fixed .header-bag,
+.header-fixed .header-bag b {
+	font-size: 0;
+}
+
+.header-fixed .header-bag {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0 22px 0 0;
+	background: none;
+}
+
+.header-fixed .header-bag .icon-bag {
+	margin: 0;
+}
+
+.header-fixed .header-bag .badge {
+	top: -8px;
+	right: 0;
+	background-color: #c10000;
+	color: #fff;
+}

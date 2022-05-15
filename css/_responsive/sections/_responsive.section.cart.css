@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+	.section-cart .cart-aside {
+		width: 164px;
+		max-width: 164px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section-cart .cart-content {
+		padding-right: 40px;
+	}
+
+	.section-cart .cart-aside {
+		width: 292px;
+		max-width: 292px;
+	}
+}

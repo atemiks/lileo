@@ -1,0 +1,23 @@
+.status {
+	position: relative;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.status.available {
+	color: #9c1fe5;
+}
+
+.status.available:before {
+	content: '\e90b';
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	font-family: 'icomoon';
+	font-size: 20px;
+}

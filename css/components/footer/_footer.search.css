@@ -1,0 +1,18 @@
+.footer-search {
+	float: left;
+	width: 120px;
+	margin: 30px 0;
+}
+
+.footer-search .search-input,
+.footer-search .search-input::placeholder {
+	color: #a1a1a1;
+}
+
+.footer-search .search-input {
+	border-color: #585a5d;
+}
+
+.footer-search .search-btn {
+	color: #a1a1a1;
+}
